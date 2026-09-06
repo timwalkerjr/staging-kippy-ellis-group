@@ -1,42 +1,9 @@
-export const legacyAgents = [
-  {
-    name: "Kippy Ellis",
-    role: "REALTOR® | Five Star Real Estate",
-    phone: "(616) 437-0205",
-    email: "kippy@fivestar.com",
-    experience: "15+ years experience",
-    bio: "Kippy Ellis brings exceptional dedication, local expertise, and warm personal attention to every client across West Michigan. Serving Grand Rapids, Holland, the Lakeshore, and surrounding areas, she makes buying and selling homes seamless, rewarding, and tailored to your lifestyle.",
-    specialties: ["Residential Homes", "Lakeshore & Waterfront", "First-Time Buyers", "Seller Representation"],
-    photo: "https://pagesmith-cdn.com/ab210347/images/3eaa06ab9024e582831a92142d9addc7-320.webp",
-  },
-  {
-    name: "Shari Boyd",
-    role: "Office Manager | REALTOR®",
-    phone: "(616) 437-0205",
-    email: "shari@fivestar.com",
-    experience: "8 years experience",
-    bio: "Shari brings exceptional organizational skills and a warm, client-first approach to every transaction. As Office Manager, she ensures smooth operations behind the scenes while also serving clients as a licensed REALTOR® across West Michigan.",
-    specialties: ["First-Time Buyers", "Relocation", "New Construction", "Client Coordination"],
-    photo: "https://pagesmith-cdn.com/ab210347/images/31427c23e28d7df9b2e36cc2785d0ee5-320.webp",
-  },
-  {
-    name: "Caleb Knox",
-    role: "Associate REALTOR®",
-    phone: "(616) 437-0205",
-    email: "caleb@fivestar.com",
-    experience: "5 years experience",
-    bio: "Caleb combines fresh market insights with a genuine passion for helping clients achieve their real estate goals across West Michigan neighborhoods, schools, and lake communities.",
-    specialties: ["First-Time Buyers", "Condominiums", "Young Professionals", "Neighborhood Expertise"],
-    photo: "https://pagesmith-cdn.com/ab210347/images/54323bdd91708272b9b3ff806c8555e5-320.webp",
-  },
-  {
-    name: "Josh Pickerel",
-    role: "REALTOR®",
-    phone: "(616) 437-0205",
-    email: "josh@fivestar.com",
-    experience: "7 years experience",
-    bio: "Josh is known for his calm demeanor, strategic market analysis, and unwavering commitment to his clients throughout Greater Grand Rapids and the West Michigan region.",
-    specialties: ["Commercial Real Estate", "Investment Properties", "Luxury Homes", "Market Analysis"],
-    photo: "https://pagesmith-cdn.com/ab210347/images/50dd634e9f84008c5018aadaad94603c-320.webp",
-  },
-];
+import { getCollection } from 'astro:content';
+
+// Both the cards and JSON-LD use the same editable collection as /team/.
+export async function getAgents() {
+  const entries = await getCollection('agents');
+  return entries.filter(entry => !entry.data.draft)
+    .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
+    .map(entry => ({ ...entry.data, id: entry.id, photo: entry.data.image || entry.data.photo }));
+}
