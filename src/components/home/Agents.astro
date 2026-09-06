@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+
+const agentsEntries = await getCollection('agents');
+const sortedAgents = agentsEntries.sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+---
+
+<section id="agents" class="bg-surface py-20 lg:py-24 border-t border-border" data-ps="src/components/home/Agents.astro:agents-sec">
+  <div class="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12" data-ps="src/components/home/Agents.astro:vs7wvw">
+    <!-- Section Header -->
+    <div class="text-center max-w-[680px] mx-auto mb-14" data-ps="src/components/home/Agents.astro:vs7wvx">
+      <span class="text-[12px] font-bold text-primary tracking-[0.15em] uppercase mb-2 block" data-ps="src/components/home/Agents.astro:bqs3gz">Meet the Team</span>
+      <h2 class="font-heading text-[30px] font-normal text-foreground leading-[1.2] mb-3" data-ps="src/components/home/Agents.astro:9jy8b3">
+        Our Agents
+      </h2>
+      <p class="text-[15px] sm:text-[16px] text-muted-foreground leading-[24px]" data-ps="src/components/home/Agents.astro:hrz5m1">
+        Dedicated West Michigan real estate professionals with Five Star Real Estate.
+      </p>
+    </div>
+
+    <!-- Agent Cards Grid from Collection -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" data-ps="src/components/home/Agents.astro:vs7wvy">
+      {sortedAgents.map((agent, __psIdx) => {
+        const { name, role, phone, experience, photo, image, featured } = agent.data;
+        const agentPhoto = image || photo;
+        return (
+          <div class="bg-white border border-border rounded-[8px] overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow group" data-ps={`src/components/home/Agents.astro:agent-card-${__psIdx}`}>
+            <div data-ps={`src/components/home/Agents.astro:agent-card-top-${__psIdx}`}>
+              <div class="relative aspect-4/3 sm:aspect-square overflow-hidden bg-gray-100" data-ps={`src/components/home/Agents.astro:agent-img-wrap-${__psIdx}`}>
+                <img
+                  src={agentPhoto}
+                  alt={name}
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  data-ps={`src/components/home/Agents.astro:agent-img-${__psIdx}`} />
+                {featured && (
+                  <div class="absolute top-3 right-3 bg-primary text-white text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-[4px] shadow-sm" data-ps={`src/components/home/Agents.astro:agent-badge-${__psIdx}`}>
+                    Team Lead
+                  </div>
+                )}
+              </div>
+              <div class="p-5" data-ps={`src/components/home/Agents.astro:agent-info-${__psIdx}`}>
+                <h3 class="font-heading text-[19px] font-normal text-foreground mb-1" data-ps={`src/components/home/Agents.astro:agent-name-${__psIdx}`}>{name}</h3>
+                <p class="text-[13px] text-primary font-medium mb-1" data-ps={`src/components/home/Agents.astro:agent-role-${__psIdx}`}>{role}</p>
+                <p class="text-[12px] text-muted-foreground font-medium uppercase tracking-wider" data-ps={`src/components/home/Agents.astro:agent-exp-${__psIdx}`}>{experience}</p>
+              </div>
+            </div>
+            <div class="px-5 pb-5 pt-0 flex items-center justify-between border-t border-border/50 mt-2 pt-4" data-ps={`src/components/home/Agents.astro:agent-footer-${__psIdx}`}>
+              <a href={`tel:${phone.replace(/[^0-9+]/g, '')}`} class="text-[13px] text-muted-foreground hover:text-primary transition-colors no-underline font-medium" data-ps={`src/components/home/Agents.astro:agent-phone-${__psIdx}`}>
+                {phone}
+              </a>
+              <a href="/#contact" class="inline-flex items-center gap-1 text-[13px] font-semibold text-primary hover:text-primary-hover no-underline" data-ps={`src/components/home/Agents.astro:agent-contact-${__psIdx}`}>
+                <span data-ps={`src/components/home/Agents.astro:vp6qbr-${__psIdx}`}>Contact</span>
+                <span aria-hidden="true" data-ps={`src/components/home/Agents.astro:vp6qbq-${__psIdx}`}>&rarr;</span>
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- View All Team Link -->
+    <div class="text-center mt-12" data-ps="src/components/home/Agents.astro:team-cta-wrap">
+      <a
+        href="/team/"
+        class="inline-flex items-center gap-2 bg-primary text-white hover:bg-primary-hover font-semibold text-[14px] px-6 py-3 rounded-[6px] transition-colors shadow-xs no-underline"
+        data-ps="src/components/home/Agents.astro:team-page-link">
+        <span data-ps="src/components/home/Agents.astro:vp6qbp">View Full Team & Specialties</span>
+        <span aria-hidden="true" data-ps="src/components/home/Agents.astro:vp6qbo">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>

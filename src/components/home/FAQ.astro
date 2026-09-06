@@ -1,0 +1,87 @@
+---
+import { FAQ_ITEMS } from '@/config/faqs';
+---
+
+<section id="faq" class="bg-white py-20 lg:py-24" data-ps="src/components/home/FAQ.astro:faq-sec">
+  <div class="max-w-[860px] mx-auto px-6 sm:px-8" data-ps="src/components/home/FAQ.astro:ybu4zc">
+    <!-- Header -->
+    <div class="text-center mb-14" data-ps="src/components/home/FAQ.astro:ybu4zb">
+      <span class="text-[12px] font-bold text-primary tracking-[0.15em] uppercase mb-2 block" data-ps="src/components/home/FAQ.astro:o4fbo7">FAQ</span>
+      <h2 class="font-heading text-[30px] font-normal text-foreground leading-[1.2] mb-3" data-ps="src/components/home/FAQ.astro:dzhsdr">
+        Frequently Asked Questions
+      </h2>
+      <p class="text-[15px] sm:text-[16px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:v2sdun">
+        Answers to the questions we hear most from buyers and sellers across West Michigan.
+      </p>
+    </div>
+
+    <!-- Accordion List -->
+    <div class="flex flex-col border-t border-border" data-ps="src/components/home/FAQ.astro:ybu4za">
+      <!-- Item 1 (Open by default) -->
+      <details class="group border-b border-border py-4" open>
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fbo8">{FAQ_ITEMS[0].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fbo9">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z9">
+          {FAQ_ITEMS[0].answer}
+        </div>
+      </details>
+
+      <!-- Item 2 -->
+      <details class="group border-b border-border py-4">
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fboa">{FAQ_ITEMS[1].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fbow">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z8">
+          {FAQ_ITEMS[1].answer}
+        </div>
+      </details>
+
+      <!-- Item 3 -->
+      <details class="group border-b border-border py-4">
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fbox">{FAQ_ITEMS[2].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fboy">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z7">
+          {FAQ_ITEMS[2].answer}
+        </div>
+      </details>
+
+      <!-- Item 4 -->
+      <details class="group border-b border-border py-4">
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fboz">{FAQ_ITEMS[3].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fbp0">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z6">
+          {FAQ_ITEMS[3].answer}
+        </div>
+      </details>
+
+      <!-- Item 5 -->
+      <details class="group border-b border-border py-4">
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fbp1">{FAQ_ITEMS[4].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fbp2">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z5">
+          {FAQ_ITEMS[4].answer}
+        </div>
+      </details>
+
+      <!-- Item 6 -->
+      <details class="group border-b border-border py-4">
+        <summary class="flex items-center justify-between gap-4 font-heading text-[17px] sm:text-[18px] text-foreground font-normal cursor-pointer list-none select-none py-2">
+          <span data-ps="src/components/home/FAQ.astro:o4fbp3">{FAQ_ITEMS[5].question}</span>
+          <span class="text-muted-foreground group-open:rotate-45 transition-transform text-xl font-light shrink-0" data-ps="src/components/home/FAQ.astro:o4fbp4">+</span>
+        </summary>
+        <div class="pt-2 pb-4 text-[14px] sm:text-[15px] text-muted-foreground leading-[24px]" data-ps="src/components/home/FAQ.astro:ybu4z4">
+          {FAQ_ITEMS[5].answer}
+        </div>
+      </details>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+---
+const areas = [
+  { name: "Grand Rapids, MI", href: "/#contact" },
+  { name: "Holland, MI", href: "/#contact" },
+  { name: "Grand Haven, MI", href: "/#contact" },
+  { name: "Saugatuck & Douglas", href: "/#contact" },
+  { name: "Spring Lake, MI", href: "/#contact" },
+  { name: "Ada & Cascade", href: "/#contact" },
+];
+
+export interface Props {
+  currentArea?: string;
+}
+
+const { currentArea } = Astro.props;
+const filtered = currentArea
+  ? areas.filter((a) => a.href !== currentArea)
+  : areas;
+---
+
+<section id="coverage" class="bg-sky-50/60" data-ps="src/components/area/AreaExplore.astro:1v9bga">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-16 lg:py-20" data-ps="src/components/area/AreaExplore.astro:e9c8z3">
+    <div class="text-center mb-10" data-ps="src/components/area/AreaExplore.astro:e9c8z4">
+      <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-2" data-ps="src/components/area/AreaExplore.astro:e9c8z5">Coverage</div>
+      <h2 class="font-heading text-foreground text-[28px] lg:text-[36px] font-normal leading-[1.15]" data-ps="src/components/area/AreaExplore.astro:zgyz6d">
+        Explore More Areas
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" data-ps="src/components/area/AreaExplore.astro:e9c8z6">
+      {filtered.map((area, __psIdx) => (
+        <a
+          href={area.href}
+          class="bg-white border border-sky-100 p-4 rounded-[6px] flex items-center gap-3 text-foreground font-medium text-[14px] hover:border-primary/40 transition shadow-sm"
+         data-ps={`src/components/area/AreaExplore.astro:vhme5x-${__psIdx}`}>
+          <i class="ri-map-pin-line text-primary text-lg"></i>
+          <span data-ps={`src/components/area/AreaExplore.astro:s76bak-${__psIdx}`}>{area.name}</span>
+          <i class="ri-arrow-right-line text-muted-foreground ml-auto"></i>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

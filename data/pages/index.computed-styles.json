@@ -1,0 +1,2019 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": {
+    "type": "color",
+    "value": "oklch(1 0 0)"
+  },
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "oklch(1 0 0)",
+      "textColor": "oklch(1 0 0)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "60px",
+          "fontWeight": "400",
+          "color": "oklch(1 0 0)",
+          "text": "Looking for a Realtor who knows the Williamson County and Middle, TN market?",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Why Choose Us to Help You with Your Real Estate Needs in the Williamson County, ",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Chris Thompson",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "What Our Clients Are Saying",
+          "textAlign": "center"
+        },
+        {
+          "tag": "h4",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "\"Chris came out to look at our property and was so kind and friendly...\"",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "oklch(0.985 0.002 90)",
+        "lineHeight": "28px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "color": "oklch(1 0 0)",
+          "borderRadius": "6px",
+          "padding": "12px 24px 12px 24px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "text": "Search Properties"
+        },
+        {
+          "backgroundColor": "oklch(1 0 0)",
+          "color": "oklch(0.14 0 0)",
+          "borderRadius": "6px",
+          "padding": "12px 24px 12px 24px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "text": "Talk to an Agent"
+        },
+        {
+          "color": "oklch(0.31 0.07 165)",
+          "borderRadius": "6px",
+          "border": "1px solid oklch(0.72 0.09 165)",
+          "padding": "10px 16px 10px 16px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "text": "Schedule a Showing"
+        }
+      ],
+      "links": [
+        {
+          "text": "christhompson@townecreekrealty.com",
+          "color": "oklch(0.38 0.08 165)",
+          "fontWeight": "400"
+        },
+        {
+          "text": "Contact",
+          "color": "oklch(0.38 0.08 165)",
+          "fontWeight": "600"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 1920,
+          "displayHeight": 700,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 329,
+          "displayHeight": 438,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 393,
+          "displayHeight": 256,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 393,
+          "displayHeight": 256,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 393,
+          "displayHeight": 256,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1280px"
+      },
+      "interactionType": "carousel",
+      "pseudoElements": [
+        {
+          "host": "ri-arrow-up-line text-xl",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-home-4-line text-xl",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-down-s-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-down-s-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-down-s-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-phone-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "gradient": "linear-gradient(oklch(0.08 0 0 / 0.6), oklch(0.08 0 0 / 0.4), oklch(0.08 0 0 / 0.6))",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "gradient": "linear-gradient(to right, oklch(0.08 0 0 / 0.7), oklch(0.08 0 0 / 0.35) 70%, rgba(0, 0, 0, 0))",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "oklch(0.985 0.002 90)",
+      "textColor": "oklch(0.08 0 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "What Our Clients Are Saying",
+          "textAlign": "center"
+        },
+        {
+          "tag": "h4",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "\"Chris came out to look at our property and was so kind and friendly...\"",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h4",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "\"We absolutely loved our experience with Chris and Towne Creek Realty...\"",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h4",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "\"Thank you both Chris and Shari for all the help thru this process...\"",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "oklch(0.28 0 0)",
+        "lineHeight": "22.75px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "1280px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "394.656px 394.672px 394.656px",
+        "gap": "24px",
+        "childCount": 3
+      },
+      "pseudoElements": [
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-star-fill",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "oklch(0.985 0.002 90)",
+      "textColor": "oklch(0.08 0 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Our Agents",
+          "textAlign": "center"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Chris Thompson",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Shari Boyd",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Caleb Knox",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Josh Pickerel",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "oklch(0.28 0 0)",
+        "lineHeight": "24px",
+        "textAlign": "center"
+      },
+      "buttons": [],
+      "links": [
+        {
+          "text": "Contact",
+          "color": "oklch(0.38 0.08 165)",
+          "fontWeight": "600"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 288,
+          "displayHeight": 288,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1280px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "290px 290px 290px 290px",
+        "gap": "24px",
+        "childCount": 4
+      },
+      "interactionType": "carousel",
+      "pseudoElements": [
+        {
+          "host": "ri-arrow-right-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-right-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-right-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-arrow-right-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "oklch(0.93 0.015 220)",
+      "textColor": "oklch(0.08 0 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Areas We Serve",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "15px",
+        "color": "oklch(0.28 0 0)",
+        "lineHeight": "22.5px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "oklch(1 0 0)",
+          "color": "oklch(0.14 0 0)",
+          "borderRadius": "6px",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "padding": "16px 20px 16px 20px",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "text": "Franklin, TN"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1280px",
+        "paddingBlock": "80px 80px",
+        "display": "grid",
+        "gridTemplateColumns": "400px 400px 400px",
+        "gap": "16px",
+        "childCount": 9
+      },
+      "pseudoElements": [
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-map-pin-line text-primary-500",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "oklch(0.985 0.002 90)",
+      "textColor": "oklch(0.08 0 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(0.08 0 0)",
+          "text": "Frequently Asked Questions",
+          "textAlign": "center"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "oklch(0.28 0 0)",
+        "lineHeight": "24px",
+        "textAlign": "center"
+      },
+      "buttons": [
+        {
+          "color": "oklch(0.14 0 0)",
+          "padding": "16px 20px 16px 20px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "What does it cost to work with a Realtor"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1280px",
+        "paddingBlock": "80px 80px"
+      },
+      "pseudoElements": [
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300 rotate-45",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        },
+        {
+          "host": "ri-add-line text-lg text-primary-600 transition-transform duration-300",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "oklch(0.38 0.08 165)",
+      "textColor": "oklch(1 0 0)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "oklch(1 0 0)",
+          "text": "Join Our Team",
+          "textAlign": "center"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "oklch(0.96 0.02 165)",
+        "lineHeight": "24px",
+        "textAlign": "center"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "oklch(1 0 0)",
+          "color": "oklch(0.31 0.07 165)",
+          "borderRadius": "6px",
+          "padding": "12px 24px 12px 24px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "text": "Apply Now"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1024px",
+        "paddingBlock": "64px 64px"
+      },
+      "pseudoElements": [
+        {
+          "host": "ri-user-add-line",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "oklch(0.19 0.02 220)",
+      "textColor": "oklch(0.87 0.02 220)",
+      "headings": [],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "oklch(0.87 0.02 220)",
+        "lineHeight": "20px",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "links": [
+        {
+          "text": "Home",
+          "color": "oklch(0.93 0.015 220)",
+          "fontWeight": "400"
+        },
+        {
+          "text": "Privacy",
+          "color": "oklch(0.78 0.03 220)",
+          "fontWeight": "400"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1280px",
+        "paddingBlock": "56px 56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "gap": "8px",
+        "childCount": 2
+      },
+      "pseudoElements": [
+        {
+          "host": "ri-home-4-line text-xl",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "Playfair Display",
+    "bodyFont": "Inter",
+    "scale": {
+      "h1": {
+        "fontSize": "60px",
+        "fontWeight": "400",
+        "lineHeight": "60px"
+      },
+      "h2": {
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "lineHeight": "40px"
+      },
+      "h3": {
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "32px"
+      },
+      "h4": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px"
+      },
+      "body": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "22.75px"
+      }
+    }
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1920px",
+    "backgroundColor": "oklch(1 0 0)",
+    "position": "fixed",
+    "links": [
+      {
+        "text": "Towne CreekRealty",
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "color": "oklch(0.14 0 0)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "text": "Home",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)"
+      },
+      {
+        "text": "Property Search",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)"
+      },
+      {
+        "text": "Buying / Selling",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)"
+      },
+      {
+        "text": "Moving to Williamson",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)",
+        "hasDropdown": true
+      },
+      {
+        "text": "Our Agents",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)",
+        "hasDropdown": true
+      },
+      {
+        "text": "Contact Us",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)"
+      },
+      {
+        "text": "More",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "oklch(1 0 0)",
+        "hasDropdown": true
+      },
+      {
+        "text": "(615) 656-1301",
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": "600",
+        "color": "oklch(0.31 0.07 165)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "oklch(1 0 0)",
+          "borderRadius": "6px"
+        }
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 130,
+      "distribution": "left",
+      "verticalAlign": "middle"
+    },
+    "pseudoElements": [
+      {
+        "host": "ri-home-4-line text-xl",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      },
+      {
+        "host": "ri-arrow-down-s-line",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      },
+      {
+        "host": "ri-arrow-down-s-line",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      },
+      {
+        "host": "ri-arrow-down-s-line",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      },
+      {
+        "host": "ri-phone-line",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      },
+      {
+        "host": "ri-menu-line text-2xl",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      }
+    ]
+  },
+  "sliders": [],
+  "buttons": [
+    {
+      "backgroundColor": "oklch(0.45 0.09 165)",
+      "color": "oklch(1 0 0)",
+      "borderRadius": "6px",
+      "padding": "12px 24px 12px 24px",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "text": "Search Properties"
+    },
+    {
+      "backgroundColor": "oklch(1 0 0)",
+      "color": "oklch(0.14 0 0)",
+      "borderRadius": "6px",
+      "padding": "12px 24px 12px 24px",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "text": "Talk to an Agent"
+    },
+    {
+      "color": "oklch(0.31 0.07 165)",
+      "borderRadius": "6px",
+      "border": "1px solid oklch(0.72 0.09 165)",
+      "padding": "10px 16px 10px 16px",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "text": "Schedule a Showing"
+    },
+    {
+      "color": "oklch(0.14 0 0)",
+      "padding": "16px 20px 16px 20px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "text": "What does it cost to work with a Realtor"
+    },
+    {
+      "backgroundColor": "oklch(1 0 0)",
+      "color": "oklch(0.31 0.07 165)",
+      "borderRadius": "6px",
+      "padding": "12px 24px 12px 24px",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "text": "Apply Now"
+    }
+  ],
+  "videos": [],
+  "footer": {
+    "background": "oklch(0.19 0.02 220)",
+    "textColor": "oklch(0.93 0.015 220)",
+    "columns": 4,
+    "textAlign": "start",
+    "linkGroups": [
+      {
+        "links": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "Property Search",
+            "href": "/property-search"
+          },
+          {
+            "text": "Buying / Selling",
+            "href": "/#buying-selling"
+          },
+          {
+            "text": "Our Agents",
+            "href": "/agents"
+          },
+          {
+            "text": "Testimonials",
+            "href": "/testimonials"
+          }
+        ]
+      },
+      {
+        "links": [
+          {
+            "text": "(615) 656-1301",
+            "href": "tel:+16156561301"
+          },
+          {
+            "text": "christhompson@townecreekrealty.com",
+            "href": "mailto:christhompson@townecreekrealty.com"
+          }
+        ]
+      }
+    ]
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".hover\\:border-primary-300": {
+      "borderColor": "oklch(var(--primary-300) / var(--tw-border-opacity,1))"
+    },
+    ".hover\\:bg-background-100": {
+      "backgroundColor": "oklch(var(--background-100) / var(--tw-bg-opacity,1))"
+    },
+    ".hover\\:bg-background-200": {
+      "backgroundColor": "oklch(var(--background-200) / var(--tw-bg-opacity,1))"
+    },
+    ".hover\\:bg-background-300": {
+      "backgroundColor": "oklch(var(--background-300) / var(--tw-bg-opacity,1))"
+    },
+    ".hover\\:bg-background-50\\/10": {
+      "backgroundColor": "oklch(var(--background-50) / .1)"
+    },
+    ".hover\\:bg-background-50\\/20": {
+      "backgroundColor": "oklch(var(--background-50) / .2)"
+    },
+    ".hover\\:bg-primary-500": {
+      "backgroundColor": "oklch(var(--primary-500) / var(--tw-bg-opacity,1))"
+    },
+    ".hover\\:bg-primary-600": {
+      "backgroundColor": "oklch(var(--primary-600) / var(--tw-bg-opacity,1))"
+    },
+    ".hover\\:text-background-50": {
+      "color": "oklch(var(--background-50) / var(--tw-text-opacity,1))"
+    },
+    ".hover\\:text-foreground-900": {
+      "color": "oklch(var(--foreground-900) / var(--tw-text-opacity,1))"
+    },
+    ".hover\\:text-primary-500": {
+      "color": "oklch(var(--primary-500) / var(--tw-text-opacity,1))"
+    },
+    ".hover\\:text-primary-600": {
+      "color": "oklch(var(--primary-600) / var(--tw-text-opacity,1))"
+    },
+    ".hover\\:text-primary-700": {
+      "color": "oklch(var(--primary-700) / var(--tw-text-opacity,1))"
+    },
+    ".hover\\:text-primary-800": {
+      "color": "oklch(var(--primary-800) / var(--tw-text-opacity,1))"
+    },
+    ".group .group-hover\\:translate-x-1": {
+      "transform": "translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))"
+    },
+    ".group .group-hover\\:scale-105": {
+      "transform": "translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))"
+    },
+    ".group .group-hover\\:scale-\\[1\\.02\\]": {
+      "transform": "translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))"
+    }
+  },
+  "cssVariables": {
+    "--font-heading": "\"Playfair Display\", serif",
+    "--font-body": "\"Inter\", sans-serif",
+    "--font-label": "\"Inter\", sans-serif"
+  },
+  "externalFonts": [
+    "https://fonts.googleapis.com/",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Towne CreekRealty",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-10",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-primary-500",
+          "text": "Home",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-primary-500",
+          "text": "Property Search",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-primary-500",
+          "text": "Buying / Selling",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "Moving to Williamson",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "Our Agents",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-primary-500",
+          "text": "Contact Us",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "button",
+          "cls": "flex",
+          "text": "More",
+          "color": "oklch(1 0 0)",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "hidden",
+          "text": "(615) 656-1301",
+          "color": "oklch(0.31 0.07 165)",
+          "backgroundColor": "oklch(1 0 0)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Looking for a Realtor who knows the Williamson County and Middle, TN market?",
+      "elements": [
+        {
+          "tag": "img",
+          "cls": "absolute",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "span",
+          "cls": "inline-block",
+          "text": "Franklin · Williamson County ·",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165 / 0.85)",
+          "borderRadius": "9999px",
+          "fontSize": "12px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "h1",
+          "cls": "font-heading",
+          "text": "Looking for a Realtor who know",
+          "color": "oklch(1 0 0)",
+          "fontSize": "60px"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "Search Properties",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "Talk to an Agent",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "text-center",
+          "text": "500+Homes sold across Middle T",
+          "color": "oklch(0.14 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Why Choose Us to Help You with Your Real Estate Needs in the Williamson County, ",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Why Choose Us to Help You with",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "p-5",
+          "text": "Honest & Forthright",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.985 0.002 90)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-10",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "p-5",
+          "text": "Data-Driven Insights",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.985 0.002 90)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "p-5",
+          "text": "People First Service",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.985 0.002 90)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-secondary-100",
+          "text": "Chris ThompsonPrincipal Broker",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.93 0.015 220)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.955 0.005 90)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Chris Thompson",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "christhompson@townecreekrealty",
+          "color": "oklch(0.38 0.08 165)",
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "What Our Clients Are Saying",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "What Our Clients Are Saying",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "\"Chris came out to look at our",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "\"Chris came out to look at our",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "div",
+          "cls": "mt-5",
+          "text": "— Candace Williams",
+          "color": "oklch(0.14 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "\"We absolutely loved our exper",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "\"We absolutely loved our exper",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "div",
+          "cls": "mt-5",
+          "text": "— Emily Jordan",
+          "color": "oklch(0.14 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "\"Thank you both Chris and Shar",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "\"Thank you both Chris and Shar",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "div",
+          "cls": "mt-5",
+          "text": "— Elliot & DeAnna Kelley",
+          "color": "oklch(0.14 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Here are Some Popular Listing Categories",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Here are Some Popular Listing ",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-primary-600",
+          "text": "You can access that here",
+          "color": "oklch(0.38 0.08 165)",
+          "fontSize": "15px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-primary-600",
+          "text": "contact us",
+          "color": "oklch(0.38 0.08 165)",
+          "fontSize": "15px"
+        },
+        {
+          "tag": "div",
+          "cls": "group",
+          "text": "Featured ListingsHand-picked h",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "block",
+          "text": "Featured ListingsHand-picked h",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Featured Listings",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "Schedule a Showing",
+          "color": "oklch(0.31 0.07 165)",
+          "border": "1px solid oklch(0.72 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "div",
+          "cls": "group",
+          "text": "Land and FarmRolling acreage, ",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "block",
+          "text": "Land and FarmRolling acreage, ",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Land and Farm",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "div",
+          "cls": "group",
+          "text": "Luxury HomesHigh-end estates a",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "block",
+          "text": "Luxury HomesHigh-end estates a",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Luxury Homes",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "20px"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Our Agents",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Our Agents",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "Chris ThompsonPrincipal Broker",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Chris Thompson",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "a",
+          "cls": "text-sm",
+          "text": "Contact",
+          "color": "oklch(0.38 0.08 165)",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "Shari BoydOffice Manager | REA",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Shari Boyd",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "Caleb KnoxAffiliate BrokerCont",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Caleb Knox",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "div",
+          "cls": "bg-background-50",
+          "text": "Josh PickerelREALTOR®Contact",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Josh Pickerel",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "A thoughtful, boutique approach to every transaction",
+      "elements": [
+        {
+          "tag": "img",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "A thoughtful, boutique approac",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-12",
+          "color": "oklch(0.31 0.07 165)",
+          "backgroundColor": "oklch(0.92 0.04 165)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "Buyer Representation",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "Seller Strategy",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font-heading",
+          "text": "Land & Commercial",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "18px"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "Areas We Serve",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Areas We Serve",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Franklin, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Nolensville, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Green Hills, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Thompson's Station",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Spring Hill, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Leipers Fork, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Nashville, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Brentwood, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "flex",
+          "text": "Murfreesboro, TN",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.87 0.02 220)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "heading": "Frequently Asked Questions",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Frequently Asked Questions",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "How do I start buying a home i",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "How do I start buying a home i",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "How do you determine the right",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "How do you determine the right",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "What does it cost to work with",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "What does it cost to work with",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "Which areas does Towne Creek R",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "Which areas does Towne Creek R",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "How long does it take to sell ",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "How long does it take to sell ",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "border",
+          "text": "Can you help with land, farm, ",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "w-full",
+          "text": "Can you help with land, farm, ",
+          "color": "oklch(0.14 0 0)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "heading": "Contact Us",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Contact Us",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-11",
+          "color": "oklch(0.31 0.07 165)",
+          "backgroundColor": "oklch(0.92 0.04 165)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "rounded-lg",
+          "color": "oklch(0.14 0 0)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "form",
+          "cls": "bg-background-100",
+          "text": "Send us a messageFirst NameLas",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(0.985 0.002 90)",
+          "border": "1px solid oklch(0.955 0.005 90)",
+          "borderRadius": "8px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font-heading",
+          "text": "Send us a message",
+          "color": "oklch(0.08 0 0)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "input",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.905 0.008 90)",
+          "borderRadius": "6px",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "select",
+          "cls": "w-full",
+          "text": "Buying a homeSelling a homeLan",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.905 0.008 90)",
+          "borderRadius": "6px",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "textarea",
+          "cls": "w-full",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "oklch(1 0 0)",
+          "border": "1px solid oklch(0.905 0.008 90)",
+          "borderRadius": "6px",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "input",
+          "color": "oklch(0.14 0 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "mt-6",
+          "text": "Send Message",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "heading": "Join Our Team",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font-heading",
+          "text": "Join Our Team",
+          "color": "oklch(1 0 0)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "a",
+          "cls": "inline-flex",
+          "text": "Apply Now",
+          "color": "oklch(0.31 0.07 165)",
+          "backgroundColor": "oklch(1 0 0)",
+          "borderRadius": "6px",
+          "fontSize": "14px",
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "heading": "Site footer (port into Footer.astro)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "w-10",
+          "color": "oklch(1 0 0)",
+          "backgroundColor": "oklch(0.45 0.09 165)",
+          "borderRadius": "6px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Home",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Property Search",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Buying / Selling",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Our Agents",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Testimonials",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "(615) 656-1301",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "christhompson@townecreekrealty",
+          "color": "oklch(0.93 0.015 220)",
+          "fontSize": "14px"
+        },
+        {
+          "tag": "div",
+          "cls": "border-t",
+          "text": "© 2026 Towne Creek Realty. All",
+          "color": "oklch(0.93 0.015 220)",
+          "border": "1px solid oklch(0.26 0.025 220)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Privacy",
+          "color": "oklch(0.78 0.03 220)",
+          "fontSize": "12px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Terms",
+          "color": "oklch(0.78 0.03 220)",
+          "fontSize": "12px"
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-background-50",
+          "text": "Accessibility",
+          "color": "oklch(0.78 0.03 220)",
+          "fontSize": "12px"
+        }
+      ]
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920
+}

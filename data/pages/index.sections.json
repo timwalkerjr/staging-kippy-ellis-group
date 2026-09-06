@@ -1,0 +1,1032 @@
+[
+  {
+    "index": 0,
+    "heading": "Site header / navigation (port into Navigation.astro)",
+    "widgetTypes": [
+      "nav"
+    ],
+    "html": "<header class=\"fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between\"><a class=\"flex items-center gap-2 whitespace-nowrap cursor-pointer shrink-0\" href=\"https://townecreek-v3.clientsite.agency/\"><div class=\"w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 text-background-50\"><i class=\"ri-home-4-line text-xl\"></i></div><div class=\"leading-tight\"><div class=\"font-heading text-lg font-semibold text-background-50\">Towne Creek</div><div class=\"text-[10px] tracking-[0.25em] uppercase text-background-100\">Realty</div></div></a><nav class=\"hidden lg:flex items-center gap-6 text-sm font-medium text-background-50\"><a class=\"hover:text-primary-500 cursor-pointer whitespace-nowrap text-background-50\" href=\"https://townecreek-v3.clientsite.agency/\">Home</a><a class=\"hover:text-primary-500 cursor-pointer whitespace-nowrap text-background-50\" href=\"https://townecreek-v3.clientsite.agency/property-search\">Property Search</a><a href=\"https://townecreek-v3.clientsite.agency/#buying-selling\" class=\"hover:text-primary-500 cursor-pointer whitespace-nowrap transition-colors text-background-50\">Buying / Selling</a><div class=\"relative\"><button class=\"flex items-center gap-1 hover:text-primary-500 cursor-pointer whitespace-nowrap text-background-50\">Moving to Williamson <i class=\"ri-arrow-down-s-line\"></i></button></div><div class=\"relative\"><button class=\"flex items-center gap-1 hover:text-primary-500 cursor-pointer whitespace-nowrap text-background-50\">Our Agents <i class=\"ri-arrow-down-s-line\"></i></button></div><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"hover:text-primary-500 cursor-pointer whitespace-nowrap transition-colors text-background-50\">Contact Us</a><div class=\"relative\"><button class=\"flex items-center gap-1 hover:text-primary-500 cursor-pointer whitespace-nowrap text-background-50\">More <i class=\"ri-arrow-down-s-line\"></i></button></div></nav><a href=\"tel:+16156561301\" class=\"hidden lg:inline-flex items-center gap-2 px-4 py-2 rounded-md font-semibold text-sm whitespace-nowrap cursor-pointer shrink-0 bg-background-50 text-primary-700 hover:bg-background-100\"><i class=\"ri-phone-line\"></i> <span class=\"hidden xl:inline\">(615) 656-1301</span></a><button class=\"lg:hidden w-10 h-10 flex items-center justify-center rounded-md cursor-pointer text-background-50\"><i class=\"ri-menu-line text-2xl\"></i></button></div></header>",
+    "elementStyles": [
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Towne CreekRealty",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-10",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-primary-500",
+        "text": "Home",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-primary-500",
+        "text": "Property Search",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-primary-500",
+        "text": "Buying / Selling",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "button",
+        "cls": "flex",
+        "text": "Moving to Williamson",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "button",
+        "cls": "flex",
+        "text": "Our Agents",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-primary-500",
+        "text": "Contact Us",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "button",
+        "cls": "flex",
+        "text": "More",
+        "color": "oklch(1 0 0)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "hidden",
+        "text": "(615) 656-1301",
+        "color": "oklch(0.31 0.07 165)",
+        "backgroundColor": "oklch(1 0 0)",
+        "borderRadius": "6px",
+        "fontWeight": "600"
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "heading": "Looking for a Realtor who knows the Williamson County and Middle, TN market?",
+    "html": "<section id=\"home\" class=\"relative h-[700px] flex items-center\"><img alt=\"Williamson County Tennessee sunrise landscape\" class=\"absolute inset-0 w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/629331f368ff01a0859d66f0b834031f.jpg\"><div class=\"absolute inset-0 bg-gradient-to-b from-foreground-950/60 via-foreground-950/40 to-foreground-950/60\"></div><div class=\"absolute inset-0 bg-gradient-to-r from-foreground-950/70 via-foreground-950/35 via-70% to-transparent\"></div><div class=\"relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 pt-20\"><div class=\"max-w-3xl\"><span class=\"inline-block px-3 py-1 rounded-full bg-primary-500/85 text-background-50 text-xs font-semibold tracking-widest uppercase mb-6\">Franklin · Williamson County · Middle TN</span><h1 class=\"font-heading text-4xl md:text-6xl leading-tight text-background-50 mb-6\">Looking for a Realtor who knows the Williamson County and Middle, TN market?</h1><p class=\"text-base md:text-lg text-background-100 mb-8 max-w-2xl\">Welcome to Towne Creek Realty in Franklin, TN. When deciding on a Realtor to help you buy or sell a home or property, we believe you will appreciate that we are intentionally a boutique firm known for not giving up until we find the right fit.</p><div class=\"flex flex-col sm:flex-row gap-3\"><a href=\"https://townecreek-v3.clientsite.agency/#search\" class=\"inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-primary-500 hover:bg-primary-600 text-background-50 font-semibold text-sm whitespace-nowrap cursor-pointer\"><i class=\"ri-search-line\"></i> Search Properties</a><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-background-50 hover:bg-background-100 text-foreground-900 font-semibold text-sm whitespace-nowrap cursor-pointer\"><i class=\"ri-chat-3-line\"></i> Talk to an Agent</a></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "img",
+        "cls": "absolute",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "span",
+        "cls": "inline-block",
+        "text": "Franklin · Williamson County ·",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165 / 0.85)",
+        "borderRadius": "9999px",
+        "fontSize": "12px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "h1",
+        "cls": "font-heading",
+        "text": "Looking for a Realtor who know",
+        "color": "oklch(1 0 0)",
+        "fontSize": "60px"
+      },
+      {
+        "tag": "a",
+        "cls": "inline-flex",
+        "text": "Search Properties",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "a",
+        "cls": "inline-flex",
+        "text": "Talk to an Agent",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "html": "<section class=\"bg-background-50 border-b border-background-200\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-6\"><div class=\"text-center\"><div class=\"font-heading text-3xl md:text-4xl mb-1 text-primary-600\">20+</div><div class=\"text-xs md:text-sm text-foreground-600\">Years combined experience</div></div><div class=\"text-center md:border-x md:border-background-200\"><div class=\"font-heading text-3xl md:text-4xl mb-1 text-accent-500\">500+</div><div class=\"text-xs md:text-sm text-foreground-600\">Homes sold across Middle TN</div></div><div class=\"text-center\"><div class=\"font-heading text-3xl md:text-4xl mb-1 text-primary-600\">24hr</div><div class=\"text-xs md:text-sm text-foreground-600\">Average response time</div></div><div class=\"text-center\"><div class=\"font-heading text-3xl md:text-4xl mb-1 text-primary-600\">5.0</div><div class=\"text-xs md:text-sm text-foreground-600\">Average client rating</div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "div",
+        "cls": "text-center",
+        "text": "500+Homes sold across Middle T",
+        "color": "oklch(0.14 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "heading": "Why Choose Us to Help You with Your Real Estate Needs in the Williamson County, TN Area?",
+    "html": "<section class=\"py-20 bg-background-50\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-3 gap-12\"><div class=\"lg:col-span-2\"><span class=\"text-xs font-semibold tracking-widest uppercase text-primary-600\">About Us</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 mb-6 text-foreground-950\">Why Choose Us to Help You with Your Real Estate Needs in the Williamson County, TN Area?</h2><div class=\"space-y-4 text-foreground-700 text-[15px] leading-relaxed\"><p>At the core of Towne Creek Realty is our belief that being a good steward influences how we serve you, each other, and our community. We believe this makes a difference in our work ethic, our commitment to knowing and understanding real estate, and in both our working and personal relationships.</p><p>We pride ourselves in creating long lasting relationships with clients. Our utmost goal is to help buyers and sellers make wise Real Estate decisions. In doing this we have to be honest and forthright.</p><p>We offer you the highest level of service by providing an in-depth analysis of your needs, wants, and of course what is realistic. Communication and working together as a team is the key to our success.</p><p>Our clients tell us we are unique in the industry by being both data driven and people oriented. We believe if data is analyzed properly it gives us insights that cannot be determined by simply running average comparisons.</p></div><div class=\"grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10\"><div class=\"p-5 rounded-lg bg-background-100 border border-background-200\"><div class=\"w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 text-background-50 mb-3\"><i class=\"ri-shield-check-line text-lg\"></i></div><div class=\"font-semibold text-sm text-foreground-900\">Honest &amp; Forthright</div></div><div class=\"p-5 rounded-lg bg-background-100 border border-background-200\"><div class=\"w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 text-background-50 mb-3\"><i class=\"ri-line-chart-line text-lg\"></i></div><div class=\"font-semibold text-sm text-foreground-900\">Data-Driven Insights</div></div><div class=\"p-5 rounded-lg bg-background-100 border border-background-200\"><div class=\"w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 text-background-50 mb-3\"><i class=\"ri-user-heart-line text-lg\"></i></div><div class=\"font-semibold text-sm text-foreground-900\">People First Service</div></div></div></div><div><div class=\"bg-secondary-100 rounded-lg p-6 border border-secondary-200\"><div class=\"w-full aspect-[3/4] rounded-md overflow-hidden mb-5 bg-background-200\"><img alt=\"Chris Thompson, Principal Broker\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/b76220e8d67190206b71f97572e50be1.webp\"></div><h3 class=\"font-heading text-2xl text-foreground-950\">Chris Thompson</h3><div class=\"text-sm text-foreground-600 mb-3\">Principal Broker</div><div class=\"text-sm font-semibold text-foreground-900 mb-1\"><i class=\"ri-phone-line text-primary-600 mr-1\"></i> (615) 627-8456</div><a href=\"mailto:christhompson@townecreekrealty.com\" class=\"text-sm text-primary-600 hover:text-primary-700 break-all cursor-pointer\"><i class=\"ri-mail-line mr-1\"></i> christhompson@townecreekrealty.com</a></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Why Choose Us to Help You with",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "p-5",
+        "text": "Honest & Forthright",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.985 0.002 90)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-10",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "p-5",
+        "text": "Data-Driven Insights",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.985 0.002 90)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "p-5",
+        "text": "People First Service",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.985 0.002 90)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-secondary-100",
+        "text": "Chris ThompsonPrincipal Broker",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.93 0.015 220)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.955 0.005 90)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "img",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Chris Thompson",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "text-sm",
+        "text": "christhompson@townecreekrealty",
+        "color": "oklch(0.38 0.08 165)",
+        "fontSize": "14px"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "heading": "What Our Clients Are Saying",
+    "html": "<section id=\"testimonials\" class=\"py-20 bg-background-100\"><div class=\"max-w-7xl mx-auto px-4 md:px-6\"><div class=\"text-center mb-12\"><span class=\"text-xs font-semibold tracking-widest uppercase text-accent-600\">Testimonials</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 text-foreground-950\">What Our Clients Are Saying</h2></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6\"><div class=\"bg-background-50 rounded-lg p-6 border border-background-200 flex flex-col\"><div class=\"flex text-accent-500 mb-4 text-lg\"><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i></div><h4 class=\"font-heading text-lg text-foreground-950 mb-3\">\"Chris came out to look at our property and was so kind and friendly...\"</h4><p class=\"text-sm text-foreground-700 leading-relaxed flex-1\">\"We contacted Chris to sell our home in Santa Fe, TN which had been on the market twice before with no luck. Chris came out to look at our property and was so kind and friendly. He was honest with us and let us know what he thought the property would sell for. He went out of his way when showing the home to make sure that we had time to get it ready and he would even go out when it was not him showing it to make sure our dogs were put outside and let back in when the lookers left. I have nothing bad to say about Chris' ability as a realtor. He sold our house within several months when other realtors could not, and helped us find our dream home exactly where we wanted to be. You cannot go wrong using Towne Creek Realty and Chris Thompson.\"</p><div class=\"mt-5 pt-4 border-t border-background-200 text-sm font-semibold text-foreground-900\">— Candace Williams</div></div><div class=\"bg-background-50 rounded-lg p-6 border border-background-200 flex flex-col\"><div class=\"flex text-accent-500 mb-4 text-lg\"><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i></div><h4 class=\"font-heading text-lg text-foreground-950 mb-3\">\"We absolutely loved our experience with Chris and Towne Creek Realty...\"</h4><p class=\"text-sm text-foreground-700 leading-relaxed flex-1\">\"It was obvious from the very first appointment that Chris was extremely knowledgeable and a seasoned real estate professional. We really appreciated his honesty and how he helped us prioritize what repairs we needed to add to our to-do list. Once we were ready to list, Chris sent his amazing photographer to our house. I truly believe those pictures played a key role in selling our home. We started getting inquiries immediately and sold our house in just 24 hours! We were shocked to learn we had seven offers, most were OVER asking price. Chris stayed on the phone with us until 10 pm that night, talking us through the offers. He broke it down simply and created a chart for us to easily compare our options.\"</p><div class=\"mt-5 pt-4 border-t border-background-200 text-sm font-semibold text-foreground-900\">— Emily Jordan</div></div><div class=\"bg-background-50 rounded-lg p-6 border border-background-200 flex flex-col\"><div class=\"flex text-accent-500 mb-4 text-lg\"><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i><i class=\"ri-star-fill\"></i></div><h4 class=\"font-heading text-lg text-foreground-950 mb-3\">\"Thank you both Chris and Shari for all the help thru this process...\"</h4><p class=\"text-sm text-foreground-700 leading-relaxed flex-1\">\"The Towne Creek team were always quick and ready to help, very timely in communicating with us, and helpful in laying out the steps along the way. Having already had a relationship with Chris made it all that much better. We will be sure to recommend Towne Creek to all our friends who may need home buying help!\"</p><div class=\"mt-5 pt-4 border-t border-background-200 text-sm font-semibold text-foreground-900\">— Elliot &amp; DeAnna Kelley</div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "What Our Clients Are Saying",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "\"Chris came out to look at our",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "\"Chris came out to look at our",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "div",
+        "cls": "mt-5",
+        "text": "— Candace Williams",
+        "color": "oklch(0.14 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "\"We absolutely loved our exper",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "\"We absolutely loved our exper",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "div",
+        "cls": "mt-5",
+        "text": "— Emily Jordan",
+        "color": "oklch(0.14 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "\"Thank you both Chris and Shar",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "\"Thank you both Chris and Shar",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "div",
+        "cls": "mt-5",
+        "text": "— Elliot & DeAnna Kelley",
+        "color": "oklch(0.14 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "heading": "Here are Some Popular Listing Categories",
+    "html": "<section id=\"search\" class=\"py-20 bg-background-50\"><div class=\"max-w-7xl mx-auto px-4 md:px-6\"><div class=\"grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-end\"><div><span class=\"text-xs font-semibold tracking-widest uppercase text-primary-600\">Explore Listings</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 text-foreground-950\">Here are Some Popular Listing Categories</h2></div><p class=\"text-foreground-700 text-[15px] leading-relaxed\">We also have a full ad free MLS Listing Search. <a href=\"https://townecreek-v3.clientsite.agency/property-search\" class=\"text-primary-600 underline hover:text-primary-700 cursor-pointer\">You can access that here</a>. If you know what you are looking for <a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"text-primary-600 underline hover:text-primary-700 cursor-pointer\">contact us</a> and we can help you find the best homes for sale that meet your criteria.</p></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6\"><div class=\"group bg-background-50 rounded-lg overflow-hidden border border-background-200 hover:border-primary-300 transition\"><a href=\"https://townecreek-v3.clientsite.agency/property-search\" class=\"block cursor-pointer\"><div class=\"w-full h-64 overflow-hidden\"><img alt=\"Featured Listings\" class=\"w-full h-full object-cover object-top group-hover:scale-105 transition duration-500\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/00fb8d05642e61c1860215bc5893bab1.jpg\"></div><div class=\"p-6 pb-3\"><h3 class=\"font-heading text-xl text-foreground-950 mb-2 flex items-center justify-between\">Featured Listings<i class=\"ri-arrow-right-up-line text-primary-500 group-hover:translate-x-1 transition\"></i></h3><p class=\"text-sm text-foreground-600\">Hand-picked homes currently on the market with our team.</p></div></a><div class=\"px-6 pb-6\"><button type=\"button\" class=\"w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md border border-primary-300 text-primary-700 hover:bg-primary-500 hover:text-background-50 font-semibold text-sm whitespace-nowrap cursor-pointer transition\"><i class=\"ri-calendar-check-line\"></i> Schedule a Showing</button></div></div><div class=\"group bg-background-50 rounded-lg overflow-hidden border border-background-200 hover:border-primary-300 transition\"><a href=\"https://townecreek-v3.clientsite.agency/property-search\" class=\"block cursor-pointer\"><div class=\"w-full h-64 overflow-hidden\"><img alt=\"Land and Farm\" class=\"w-full h-full object-cover object-top group-hover:scale-105 transition duration-500\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/756572f78b69bac6aa568ea4ad2df5c9.jpg\"></div><div class=\"p-6 pb-3\"><h3 class=\"font-heading text-xl text-foreground-950 mb-2 flex items-center justify-between\">Land and Farm<i class=\"ri-arrow-right-up-line text-primary-500 group-hover:translate-x-1 transition\"></i></h3><p class=\"text-sm text-foreground-600\">Rolling acreage, farms and rural properties across Middle TN.</p></div></a><div class=\"px-6 pb-6\"><button type=\"button\" class=\"w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md border border-primary-300 text-primary-700 hover:bg-primary-500 hover:text-background-50 font-semibold text-sm whitespace-nowrap cursor-pointer transition\"><i class=\"ri-calendar-check-line\"></i> Schedule a Showing</button></div></div><div class=\"group bg-background-50 rounded-lg overflow-hidden border border-background-200 hover:border-primary-300 transition\"><a href=\"https://townecreek-v3.clientsite.agency/property-search\" class=\"block cursor-pointer\"><div class=\"w-full h-64 overflow-hidden\"><img alt=\"Luxury Homes\" class=\"w-full h-full object-cover object-top group-hover:scale-105 transition duration-500\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/b836385acb94190f7a2474a3da382383.webp\"></div><div class=\"p-6 pb-3\"><h3 class=\"font-heading text-xl text-foreground-950 mb-2 flex items-center justify-between\">Luxury Homes<i class=\"ri-arrow-right-up-line text-primary-500 group-hover:translate-x-1 transition\"></i></h3><p class=\"text-sm text-foreground-600\">High-end estates and executive homes in the Nashville area.</p></div></a><div class=\"px-6 pb-6\"><button type=\"button\" class=\"w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md border border-primary-300 text-primary-700 hover:bg-primary-500 hover:text-background-50 font-semibold text-sm whitespace-nowrap cursor-pointer transition\"><i class=\"ri-calendar-check-line\"></i> Schedule a Showing</button></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Here are Some Popular Listing ",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "a",
+        "cls": "text-primary-600",
+        "text": "You can access that here",
+        "color": "oklch(0.38 0.08 165)",
+        "fontSize": "15px"
+      },
+      {
+        "tag": "a",
+        "cls": "text-primary-600",
+        "text": "contact us",
+        "color": "oklch(0.38 0.08 165)",
+        "fontSize": "15px"
+      },
+      {
+        "tag": "div",
+        "cls": "group",
+        "text": "Featured ListingsHand-picked h",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "block",
+        "text": "Featured ListingsHand-picked h",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "img",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Featured Listings",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "Schedule a Showing",
+        "color": "oklch(0.31 0.07 165)",
+        "border": "1px solid oklch(0.72 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "div",
+        "cls": "group",
+        "text": "Land and FarmRolling acreage, ",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "block",
+        "text": "Land and FarmRolling acreage, ",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Land and Farm",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "div",
+        "cls": "group",
+        "text": "Luxury HomesHigh-end estates a",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "block",
+        "text": "Luxury HomesHigh-end estates a",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Luxury Homes",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "20px"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "heading": "Our Agents",
+    "html": "<section id=\"agents\" class=\"py-20 bg-background-100\"><div class=\"max-w-7xl mx-auto px-4 md:px-6\"><div class=\"text-center mb-12\"><span class=\"text-xs font-semibold tracking-widest uppercase text-primary-600\">Meet the Team</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 text-foreground-950\">Our Agents</h2><p class=\"text-foreground-700 max-w-2xl mx-auto mt-3\">Local Franklin, TN Realtors who genuinely know Williamson County and the Middle Tennessee real estate market.</p></div><div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6\"><div class=\"bg-background-50 rounded-lg overflow-hidden border border-background-200\"><div class=\"w-full h-72 overflow-hidden\"><img alt=\"Chris Thompson\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/3eaa06ab9024e582831a92142d9addc7.jpg\"></div><div class=\"p-5\"><h3 class=\"font-heading text-lg text-foreground-950\">Chris Thompson</h3><div class=\"text-xs text-foreground-600 mb-3\">Principal Broker / Owner</div><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"text-sm text-primary-600 hover:text-primary-700 font-semibold cursor-pointer whitespace-nowrap\">Contact <i class=\"ri-arrow-right-line\"></i></a></div></div><div class=\"bg-background-50 rounded-lg overflow-hidden border border-background-200\"><div class=\"w-full h-72 overflow-hidden\"><img alt=\"Shari Boyd\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/31427c23e28d7df9b2e36cc2785d0ee5.jpg\"></div><div class=\"p-5\"><h3 class=\"font-heading text-lg text-foreground-950\">Shari Boyd</h3><div class=\"text-xs text-foreground-600 mb-3\">Office Manager | REALTOR®</div><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"text-sm text-primary-600 hover:text-primary-700 font-semibold cursor-pointer whitespace-nowrap\">Contact <i class=\"ri-arrow-right-line\"></i></a></div></div><div class=\"bg-background-50 rounded-lg overflow-hidden border border-background-200\"><div class=\"w-full h-72 overflow-hidden\"><img alt=\"Caleb Knox\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/54323bdd91708272b9b3ff806c8555e5.jpg\"></div><div class=\"p-5\"><h3 class=\"font-heading text-lg text-foreground-950\">Caleb Knox</h3><div class=\"text-xs text-foreground-600 mb-3\">Affiliate Broker</div><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"text-sm text-primary-600 hover:text-primary-700 font-semibold cursor-pointer whitespace-nowrap\">Contact <i class=\"ri-arrow-right-line\"></i></a></div></div><div class=\"bg-background-50 rounded-lg overflow-hidden border border-background-200\"><div class=\"w-full h-72 overflow-hidden\"><img alt=\"Josh Pickerel\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/50dd634e9f84008c5018aadaad94603c.webp\"></div><div class=\"p-5\"><h3 class=\"font-heading text-lg text-foreground-950\">Josh Pickerel</h3><div class=\"text-xs text-foreground-600 mb-3\">REALTOR®</div><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"text-sm text-primary-600 hover:text-primary-700 font-semibold cursor-pointer whitespace-nowrap\">Contact <i class=\"ri-arrow-right-line\"></i></a></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Our Agents",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "Chris ThompsonPrincipal Broker",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "img",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Chris Thompson",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "a",
+        "cls": "text-sm",
+        "text": "Contact",
+        "color": "oklch(0.38 0.08 165)",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "Shari BoydOffice Manager | REA",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Shari Boyd",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "Caleb KnoxAffiliate BrokerCont",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Caleb Knox",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "div",
+        "cls": "bg-background-50",
+        "text": "Josh PickerelREALTOR®Contact",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Josh Pickerel",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "heading": "A thoughtful, boutique approach to every transaction",
+    "html": "<section id=\"buying-selling\" class=\"py-20 bg-background-50\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center\"><div class=\"rounded-lg overflow-hidden h-[460px]\"><img alt=\"Franklin TN home for sale\" class=\"w-full h-full object-cover object-top\" src=\"https://townecreek-v3.clientsite.agency/ai/img_res/e21f6ef4f3550031aba786213f9a8c62.webp\"></div><div><span class=\"text-xs font-semibold tracking-widest uppercase text-accent-600\">Buying / Selling</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 mb-6 text-foreground-950\">A thoughtful, boutique approach to every transaction</h2><div class=\"space-y-5\"><div class=\"flex gap-4\"><div class=\"w-12 h-12 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-search-eye-line text-xl\"></i></div><div><h4 class=\"font-heading text-lg text-foreground-950\">Buyer Representation</h4><p class=\"text-sm text-foreground-700 mt-1\">From neighborhood scouting to negotiation, we protect your interests every step of the way.</p></div></div><div class=\"flex gap-4\"><div class=\"w-12 h-12 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-price-tag-3-line text-xl\"></i></div><div><h4 class=\"font-heading text-lg text-foreground-950\">Seller Strategy</h4><p class=\"text-sm text-foreground-700 mt-1\">Pricing, staging, and marketing built around data — not guesswork. Our listings move fast.</p></div></div><div class=\"flex gap-4\"><div class=\"w-12 h-12 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-building-line text-xl\"></i></div><div><h4 class=\"font-heading text-lg text-foreground-950\">Land &amp; Commercial</h4><p class=\"text-sm text-foreground-700 mt-1\">Farm, land, and commercial expertise across Williamson County and Middle Tennessee.</p></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "img",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "A thoughtful, boutique approac",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-12",
+        "color": "oklch(0.31 0.07 165)",
+        "backgroundColor": "oklch(0.92 0.04 165)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "Buyer Representation",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "Seller Strategy",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      },
+      {
+        "tag": "h4",
+        "cls": "font-heading",
+        "text": "Land & Commercial",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "18px"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "heading": "Areas We Serve",
+    "html": "<section id=\"community\" class=\"py-20 bg-secondary-100\"><div class=\"max-w-7xl mx-auto px-4 md:px-6\"><div class=\"max-w-3xl mb-10\"><span class=\"text-xs font-semibold tracking-widest uppercase text-secondary-700\">Coverage</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 text-foreground-950 mb-3\">Areas We Serve</h2><p class=\"text-foreground-700 text-[15px]\">We serve those looking for a Realtor to help buy or sell a home or property in the following areas in Williamson County, Nashville, and the surrounding communities.</p></div><div class=\"grid grid-cols-1 sm:grid-cols-3 gap-4\"><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/franklin-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Franklin, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/nolensville-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Nolensville, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/green-hills-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Green Hills, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/thompsons-station\"><i class=\"ri-map-pin-line text-primary-500\"></i> Thompson's Station</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/spring-hill-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Spring Hill, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/leipers-fork-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Leipers Fork, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/nashville-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Nashville, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/brentwood-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Brentwood, TN</a><a class=\"flex items-center gap-3 px-5 py-4 bg-background-50 rounded-md border border-secondary-200 hover:border-primary-300 text-sm font-medium text-foreground-900 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/area/murfreesboro-tn\"><i class=\"ri-map-pin-line text-primary-500\"></i> Murfreesboro, TN</a></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Areas We Serve",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Franklin, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Nolensville, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Green Hills, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Thompson's Station",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Spring Hill, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Leipers Fork, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Nashville, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Brentwood, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "flex",
+        "text": "Murfreesboro, TN",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.87 0.02 220)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "heading": "Frequently Asked Questions",
+    "html": "<section id=\"faq\" class=\"py-20 bg-background-100\"><div class=\"max-w-7xl mx-auto px-4 md:px-6\"><div class=\"text-center mb-12\"><span class=\"text-xs font-semibold tracking-widest uppercase text-accent-600\">FAQ</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 text-foreground-950\">Frequently Asked Questions</h2><p class=\"text-foreground-700 max-w-2xl mx-auto mt-3\">Answers to the questions we hear most from buyers and sellers across Williamson County and Middle Tennessee.</p></div><div class=\"max-w-3xl mx-auto space-y-3\"><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">How do I start buying a home in Williamson County?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300 rotate-45\"></i></span></button><div class=\"px-5 pb-5 text-sm text-foreground-700 leading-relaxed\">Start by getting pre-approved for a mortgage so you know your budget. Then we'll match you with listings that fit your criteria and guide you through showings, negotiations, inspections, and closing — every step of the way.</div></div><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">How do you determine the right listing price for my home?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300\"></i></span></button></div><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">What does it cost to work with a Realtor?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300\"></i></span></button></div><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">Which areas does Towne Creek Realty serve?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300\"></i></span></button></div><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">How long does it take to sell a home in Middle Tennessee?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300\"></i></span></button></div><div class=\"border border-background-200 rounded-lg bg-background-50 overflow-hidden\"><button type=\"button\" class=\"w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer\"><span class=\"font-heading text-base text-foreground-950\">Can you help with land, farm, and commercial properties?</span><span class=\"w-6 h-6 flex items-center justify-center shrink-0\"><i class=\"ri-add-line text-lg text-primary-600 transition-transform duration-300\"></i></span></button></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Frequently Asked Questions",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "How do I start buying a home i",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "How do I start buying a home i",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "How do you determine the right",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "How do you determine the right",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "What does it cost to work with",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "What does it cost to work with",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "Which areas does Towne Creek R",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "Which areas does Towne Creek R",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "How long does it take to sell ",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "How long does it take to sell ",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "border",
+        "text": "Can you help with land, farm, ",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "w-full",
+        "text": "Can you help with land, farm, ",
+        "color": "oklch(0.14 0 0)",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "heading": "Contact Us",
+    "html": "<section id=\"contact\" class=\"py-20 bg-background-50\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12\"><div><span class=\"text-xs font-semibold tracking-widest uppercase text-primary-600\">Get In Touch</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 mb-4 text-foreground-950\">Contact Us</h2><p class=\"text-foreground-700 mb-8\">We appreciate the opportunity to assist you as you buy or sell your home. It's a responsibility and commitment we take seriously.</p><div class=\"space-y-5 mb-8\"><div class=\"flex gap-4\"><div class=\"w-11 h-11 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-map-pin-2-line text-lg\"></i></div><div><div class=\"font-semibold text-foreground-950\">Address</div><div class=\"text-sm text-foreground-700\">101 Creekstone Blvd. Suite 100<br>Franklin, TN 37064</div></div></div><div class=\"flex gap-4\"><div class=\"w-11 h-11 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-phone-line text-lg\"></i></div><div><div class=\"font-semibold text-foreground-950\">Phone</div><div class=\"text-sm text-foreground-700\">(615) 656-1301</div></div></div><div class=\"flex gap-4\"><div class=\"w-11 h-11 flex items-center justify-center rounded-md bg-primary-100 text-primary-700 shrink-0\"><i class=\"ri-time-line text-lg\"></i></div><div><div class=\"font-semibold text-foreground-950\">Office Hours</div><div class=\"text-sm text-foreground-700\">Monday – Friday · 9:00 am – 5:00 pm</div></div></div></div><div class=\"rounded-lg overflow-hidden border border-background-200 h-64\"><div src=\"https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m4!2m1!1s101+Creekstone+Blvd,+Franklin,+TN+37064!5e0!6i13\" class=\"w-full h-full\"><!DOCTYPE html><html><head><meta> </head> <body style=\"overflow: hidden; background-color: grey;\"> <embed-place-card-element> <div class=\"default-place-card-container\"> <a href=\"https://maps.google.com/maps?ll=35.906598,-86.835447&amp;z=13&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;q=101%20Creekstone%20Blvd%20Franklin%2C%20TN%2037064\"> Open in Maps <span class=\"open-in-new-icon\"> <svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120zm188-212-56-56 372-372H560v-80h280v280h-80v-144z\"></path></svg> </span> </a> </div> </embed-place-card-element><div id=\"mapDiv\" style=\"position: relative; overflow: hidden;\"><div style=\"height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);\"><div><button type=\"button\" style=\"background: none transparent; display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; z-index: 1000002; outline-offset: 3px; right: 0px; bottom: 0px; transform: translateX(100%);\"></button></div><div style=\"position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;\"><div id=\"BD3DB763-EB42-4AA8-A190-73A4F6F6FA0F\" style=\"display: none;\"><div class=\"LGLeeN-keyboard-shortcuts-view\"><table><tbody><tr><td><kbd>←</kbd></td><td>Move left</td></tr><tr><td><kbd>→</kbd></td><td>Move right</td></tr><tr><td><kbd>↑</kbd></td><td>Move up</td></tr><tr><td><kbd>↓</kbd></td><td>Move down</td></tr><tr><td><kbd>+</kbd></td><td>Zoom in</td></tr><tr><td><kbd>-</kbd></td><td>Zoom out</td></tr><tr><td><kbd>Home</kbd></td><td>Jump left by 75%</td></tr><tr><td><kbd>End</kbd></td><td>Jump right by 75%</td></tr><tr><td><kbd>Page Up</kbd></td><td>Jump up by 75%</td></tr><tr><td><kbd>Page Down</kbd></td><td>Jump down by 75%</td></tr></tbody></table></div></div></div><div class=\"gm-style\" style=\"position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;\"><div style=\"position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;\"><div style=\"z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);\"><div style=\"position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;\"><div style=\"position: absolute; left: 0px; top: 0px; z-index: 0;\"><div style=\"position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -3, -130);\"><div style=\"position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div><div style=\"position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;\"><div style=\"width: 256px; height: 256px;\"></div></div></div></div></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;\"></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;\"></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;\"></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 0;\"><div style=\"position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -3, -130);\"><div style=\"position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2120!3i3220!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=12401\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2121!3i3220!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=80049\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: -512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2118!3i3220!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=112312\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2119!3i3220!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=48889\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2120!3i3219!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=101226\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2119!3i3219!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=6643\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2121!3i3219!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=37803\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div><div style=\"position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear;\"><img alt src=\"https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2118!3i3219!4i256!2m3!1e0!2sm!3i790556832!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m9!1m2!1y9828120082850435905!2y14976852428063553659!2s%2Fg%2F11bw3_qbsj!4m2!1x359065980!2x3426612828!8b1!15sgcid%3Asubpremise!2b0!6b0!8b0&amp;key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;token=70066\" style=\"width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;\"></div></div></div></div><div style=\"z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;\"><div style=\"z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);\"><div style=\"position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;\"></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;\"></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;\"><slot></slot><span id=\"E4F98256-3B95-439D-9296-33F596EEAE26\" style=\"position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap; border: 0px;\"></span></div><div style=\"position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;\"></div></div></div><div class=\"gm-style-moc\" style=\"z-index: 4; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; transition-property: opacity, display; transition-behavior: allow-discrete; opacity: 0; display: none;\"><p class=\"gm-style-mot\"></p></div></div><div style=\"z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; opacity: 0;\"></div><div style=\"pointer-events: none; width: 100%; height: 100%; box-sizing: border-box; position: absolute; z-index: 1000002; opacity: 0; border: 2px solid rgb(26, 115, 232);\"></div><div><div style=\"position: absolute; left: 0px; top: 0px;\"></div></div><div></div><div></div><div></div><div><button type=\"button\" style=\"background: none rgb(255, 255, 255); display: none; border: 0px; margin: 10px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px;\"></button></div><div></div><div></div><div></div><div></div><div><div class=\"gmnoprint gm-bundled-control gm-bundled-control-on-bottom\" style=\"margin: 10px; user-select: none; position: absolute; bottom: 54px; right: 40px;\"><gmp-internal-camera-control class=\"gmnoprint\" style=\"position: absolute; cursor: pointer; user-select: none; left: 0px; top: 0px;\"><button type=\"button\" class=\"gm-control-active\" style=\"background: none 6px center / 28px no-repeat rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;\"><img src=\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E\" alt=\"\" style=\"height: 28px; width: 28px;\" width=\"28\" height=\"28\"><img src=\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E\" alt=\"\" style=\"height: 28px; width: 28px;\"> <!-- truncated -->",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Contact Us",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-11",
+        "color": "oklch(0.31 0.07 165)",
+        "backgroundColor": "oklch(0.92 0.04 165)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-lg",
+        "color": "oklch(0.14 0 0)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "form",
+        "cls": "bg-background-100",
+        "text": "Send us a messageFirst NameLas",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(0.985 0.002 90)",
+        "border": "1px solid oklch(0.955 0.005 90)",
+        "borderRadius": "8px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "font-heading",
+        "text": "Send us a message",
+        "color": "oklch(0.08 0 0)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "input",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.905 0.008 90)",
+        "borderRadius": "6px",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "select",
+        "cls": "w-full",
+        "text": "Buying a homeSelling a homeLan",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.905 0.008 90)",
+        "borderRadius": "6px",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "textarea",
+        "cls": "w-full",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "oklch(1 0 0)",
+        "border": "1px solid oklch(0.905 0.008 90)",
+        "borderRadius": "6px",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "input",
+        "color": "oklch(0.14 0 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "button",
+        "cls": "mt-6",
+        "text": "Send Message",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "heading": "Join Our Team",
+    "html": "<section id=\"join\" class=\"py-16 bg-primary-600\"><div class=\"max-w-5xl mx-auto px-4 md:px-6 text-center\"><span class=\"text-xs font-semibold tracking-widest uppercase text-primary-100\">Careers</span><h2 class=\"font-heading text-3xl md:text-4xl mt-3 mb-4 text-background-50\">Join Our Team</h2><p class=\"text-primary-50 mb-8 max-w-2xl mx-auto\">Are you a licensed agent who values integrity, community, and thoughtful client care? We'd love to hear from you.</p><a href=\"https://townecreek-v3.clientsite.agency/#contact\" class=\"inline-flex items-center gap-2 px-6 py-3 rounded-md bg-background-50 hover:bg-background-100 text-primary-700 font-semibold text-sm whitespace-nowrap cursor-pointer\"><i class=\"ri-user-add-line\"></i> Apply Now</a></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "font-heading",
+        "text": "Join Our Team",
+        "color": "oklch(1 0 0)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "a",
+        "cls": "inline-flex",
+        "text": "Apply Now",
+        "color": "oklch(0.31 0.07 165)",
+        "backgroundColor": "oklch(1 0 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "fontWeight": "600"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "heading": "Site footer (port into Footer.astro)",
+    "widgetTypes": [
+      "footer"
+    ],
+    "html": "<footer class=\"bg-secondary-900 text-secondary-100\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 py-14 grid grid-cols-1 md:grid-cols-4 gap-10\"><div class=\"md:col-span-2\"><div class=\"flex items-center gap-2 mb-4\"><div class=\"w-10 h-10 flex items-center justify-center rounded-md bg-primary-500 text-background-50\"><i class=\"ri-home-4-line text-xl\"></i></div><div><div class=\"font-heading text-lg text-background-50\">Towne Creek Realty</div><div class=\"text-[10px] tracking-[0.25em] uppercase text-secondary-300\">Franklin, TN</div></div></div><p class=\"text-sm text-secondary-200 max-w-md\">A boutique Williamson County, TN real estate firm serving buyers, sellers, and investors across Franklin, Nashville, and Middle Tennessee.</p></div><div><div class=\"text-sm font-semibold text-background-50 mb-4\">Explore</div><ul class=\"space-y-2 text-sm\"><li><a class=\"hover:text-background-50 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/\">Home</a></li><li><a class=\"hover:text-background-50 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/property-search\">Property Search</a></li><li><a href=\"https://townecreek-v3.clientsite.agency/#buying-selling\" class=\"hover:text-background-50 cursor-pointer\">Buying / Selling</a></li><li><a class=\"hover:text-background-50 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/agents\">Our Agents</a></li><li><a class=\"hover:text-background-50 cursor-pointer\" href=\"https://townecreek-v3.clientsite.agency/testimonials\">Testimonials</a></li></ul></div><div><div class=\"text-sm font-semibold text-background-50 mb-4\">Contact</div><ul class=\"space-y-2 text-sm\"><li>101 Creekstone Blvd, Suite 100</li><li>Franklin, TN 37064</li><li><a href=\"tel:+16156561301\" class=\"hover:text-background-50 cursor-pointer\">(615) 656-1301</a></li><li><a href=\"mailto:christhompson@townecreekrealty.com\" class=\"hover:text-background-50 cursor-pointer break-all\">christhompson@townecreekrealty.com</a></li></ul></div></div><div class=\"border-t border-secondary-800\"><div class=\"max-w-7xl mx-auto px-4 md:px-6 py-5 flex flex-col sm:flex-row justify-between items-center text-xs text-secondary-300 gap-3\"><div>© 2026 Towne Creek Realty. All rights reserved.</div><div class=\"flex gap-4\"><a href=\"https://townecreek-v3.clientsite.agency/#\" class=\"hover:text-background-50 cursor-pointer\">Privacy</a><a href=\"https://townecreek-v3.clientsite.agency/#\" class=\"hover:text-background-50 cursor-pointer\">Terms</a><a href=\"https://townecreek-v3.clientsite.agency/#\" class=\"hover:text-background-50 cursor-pointer\">Accessibility</a></div></div></div></footer>",
+    "elementStyles": [
+      {
+        "tag": "div",
+        "cls": "w-10",
+        "color": "oklch(1 0 0)",
+        "backgroundColor": "oklch(0.45 0.09 165)",
+        "borderRadius": "6px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Home",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Property Search",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Buying / Selling",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Our Agents",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Testimonials",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "(615) 656-1301",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "christhompson@townecreekrealty",
+        "color": "oklch(0.93 0.015 220)",
+        "fontSize": "14px"
+      },
+      {
+        "tag": "div",
+        "cls": "border-t",
+        "text": "© 2026 Towne Creek Realty. All",
+        "color": "oklch(0.93 0.015 220)",
+        "border": "1px solid oklch(0.26 0.025 220)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Privacy",
+        "color": "oklch(0.78 0.03 220)",
+        "fontSize": "12px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Terms",
+        "color": "oklch(0.78 0.03 220)",
+        "fontSize": "12px"
+      },
+      {
+        "tag": "a",
+        "cls": "hover:text-background-50",
+        "text": "Accessibility",
+        "color": "oklch(0.78 0.03 220)",
+        "fontSize": "12px"
+      }
+    ]
+  }
+]

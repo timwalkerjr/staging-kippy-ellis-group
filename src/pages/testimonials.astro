@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import { SEO, pageGraph, absoluteUrl, businessId } from '@/config/seo';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import TestimonialsHero from '@/components/testimonials/TestimonialsHero.astro';
+import TestimonialsStats from '@/components/testimonials/TestimonialsStats.astro';
+import TestimonialsList from '@/components/testimonials/TestimonialsList.astro';
+import TestimonialsCTA from '@/components/testimonials/TestimonialsCTA.astro';
+const entries = (await getCollection('reviews')).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const reviews = entries.map(entry => ({ '@type': 'Review', '@id': absoluteUrl('/testimonials/#' + entry.id), url: absoluteUrl('/testimonials/#' + entry.id), name: entry.data.quote, reviewBody: entry.data.body, author: { '@type': 'Person', name: entry.data.name }, itemReviewed: { '@id': businessId }, inLanguage: 'en-US' }));
+const list = { '@type': 'ItemList', '@id': absoluteUrl('/testimonials/#reviews'), name: 'Client testimonials', numberOfItems: reviews.length, itemListElement: reviews.map((review, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@id': review['@id'] } })) };
+const jsonLd = pageGraph('/testimonials/', SEO.testimonials, 'CollectionPage', [...reviews, list], { mainEntity: { '@id': list['@id'] } });
+
+---
+
+<BaseLayout
+  title={SEO.testimonials.title}
+  description={SEO.testimonials.description}
+  jsonLd={jsonLd}
+>
+  <TestimonialsHero />
+  <TestimonialsStats />
+  <TestimonialsList />
+  <TestimonialsCTA />
+</BaseLayout>

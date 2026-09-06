@@ -1,0 +1,144 @@
+{
+  "success": true,
+  "url": "https://townecreek-v3.clientsite.agency/",
+  "structured": {
+    "title": "Untitled",
+    "description": "",
+    "url": "https://townecreek-v3.clientsite.agency/",
+    "imageCount": 11,
+    "branding": {
+      "colors": {
+        "primary": "#0E6549",
+        "secondary": "#004F38",
+        "accent": "#0E6549",
+        "background": "#FFFFFF",
+        "textPrimary": "#090909",
+        "link": "#DEEAEF"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Inter",
+          "heading": "Playfair Display"
+        },
+        "fontStacks": {
+          "heading": [
+            "Playfair Display",
+            "serif"
+          ],
+          "body": [
+            "Inter",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Inter",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "60px",
+          "h2": "36px",
+          "body": "18px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "0px"
+      },
+      "logo": null,
+      "favicon": "https://townecreek-v3.clientsite.agency/vite.svg"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "Untitled",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/property-search/",
+        "label": "Property Search",
+        "slug": "property-search",
+        "scraped": false
+      },
+      {
+        "path": "/area/franklin-tn/",
+        "label": "Franklin Tn",
+        "slug": "area-franklin-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/nolensville-tn/",
+        "label": "Nolensville Tn",
+        "slug": "area-nolensville-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/green-hills-tn/",
+        "label": "Green Hills Tn",
+        "slug": "area-green-hills-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/thompsons-station/",
+        "label": "Thompsons Station",
+        "slug": "area-thompsons-station",
+        "scraped": false
+      },
+      {
+        "path": "/area/spring-hill-tn/",
+        "label": "Spring Hill Tn",
+        "slug": "area-spring-hill-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/leipers-fork-tn/",
+        "label": "Leipers Fork Tn",
+        "slug": "area-leipers-fork-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/nashville-tn/",
+        "label": "Nashville Tn",
+        "slug": "area-nashville-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/brentwood-tn/",
+        "label": "Brentwood Tn",
+        "slug": "area-brentwood-tn",
+        "scraped": false
+      },
+      {
+        "path": "/area/murfreesboro-tn/",
+        "label": "Murfreesboro Tn",
+        "slug": "area-murfreesboro-tn",
+        "scraped": false
+      },
+      {
+        "path": "/agents/",
+        "label": "Agents",
+        "slug": "agents",
+        "scraped": false
+      },
+      {
+        "path": "/testimonials/",
+        "label": "Testimonials",
+        "slug": "testimonials",
+        "scraped": false
+      }
+    ]
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-08-16T21:41:24.637Z",
+    "homepageContentLength": 26846,
+    "imageCount": 11,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 12,
+    "pagesScraped": 1
+  }
+}

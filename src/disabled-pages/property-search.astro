@@ -1,0 +1,17 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SearchHero from '@/components/property-search/SearchHero.astro';
+import SearchFilters from '@/components/property-search/SearchFilters.astro';
+import PropertyGrid from '@/components/property-search/PropertyGrid.astro';
+import SearchCTA from '@/components/property-search/SearchCTA.astro';
+---
+
+<BaseLayout
+  title="Property Search | Kippy Ellis Group"
+  description="Browse homes, land, and lakeshore properties across Grand Rapids, Holland, the Lakeshore, and West Michigan. Search featured listings from Kippy Ellis Group."
+>
+  <SearchHero />
+  <SearchFilters />
+  <PropertyGrid />
+  <SearchCTA />
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+export interface Listing {
+  image: string;
+  price: string;
+  address: string;
+  city: string;
+  beds: number;
+  baths: number;
+  sqft: string;
+  type: string;
+  href: string;
+  description: string;
+}
+
+export interface Props {
+  areaQuery: string;
+  listing?: Listing | null;
+  emptyMessage?: string;
+}
+
+const { areaQuery, listing = null, emptyMessage = "No featured listings currently showing. Contact our team and we will help match you with homes in the area." } = Astro.props;
+---
+
+<section id="listings" class="bg-surface" data-ps="src/components/area/AreaListings.astro:w1b89v">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-20 lg:py-24" data-ps="src/components/area/AreaListings.astro:9ae96k">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10" data-ps="src/components/area/AreaListings.astro:9ae96l">
+      <div data-ps="src/components/area/AreaListings.astro:dg4yxh">
+        <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-2" data-ps="src/components/area/AreaListings.astro:dg4yxg">Listings</div>
+        <h2 class="font-heading text-foreground text-[28px] lg:text-[36px] font-normal leading-[1.15]" data-ps="src/components/area/AreaListings.astro:qdsggh">
+          Homes in the Area
+        </h2>
+      </div>
+      <a
+        href="/#contact"
+        class="inline-flex items-center gap-1 text-primary font-semibold text-[14px] hover:text-primary-hover"
+       data-ps="src/components/area/AreaListings.astro:70jq0o">
+        Explore Your Options <i class="ri-arrow-right-line"></i>
+      </a>
+    </div>
+
+    {listing ? (
+      <a
+        href={listing.href}
+        class="group block bg-white border border-border rounded-[8px] overflow-hidden hover:border-primary/40 transition max-w-[420px]"
+       data-ps="src/components/area/AreaListings.astro:70jq0p">
+        <div class="aspect-[4/3] overflow-hidden bg-surface" data-ps="src/components/area/AreaListings.astro:dg4yxf">
+          <img
+            src={listing.image}
+            alt={listing.address}
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            loading="lazy" data-ps="src/components/area/AreaListings.astro:6s54v2" />
+        </div>
+        <div class="p-5" data-ps="src/components/area/AreaListings.astro:dg4yxe">
+          <div class="text-[20px] font-heading text-primary font-normal mb-2" data-ps="src/components/area/AreaListings.astro:dg4yxd">
+            {listing.price}
+          </div>
+          <div class="text-foreground text-[15px] font-semibold mb-1" data-ps="src/components/area/AreaListings.astro:dg4yxc">
+            {listing.address}
+          </div>
+          <div class="text-muted-foreground text-[13px] mb-3" data-ps="src/components/area/AreaListings.astro:dg4yxb">
+            {listing.city}
+          </div>
+          <div class="flex items-center gap-3 text-[12px] text-muted-foreground border-t border-border pt-3" data-ps="src/components/area/AreaListings.astro:dg4yxa">
+            <span data-ps="src/components/area/AreaListings.astro:cnpmz1">{listing.beds} bd</span>
+            <span class="text-border" data-ps="src/components/area/AreaListings.astro:cnpmz0">|</span>
+            <span data-ps="src/components/area/AreaListings.astro:cnpmyz">{listing.baths} ba</span>
+            <span class="text-border" data-ps="src/components/area/AreaListings.astro:cnpmyy">|</span>
+            <span data-ps="src/components/area/AreaListings.astro:cnpmyc">{listing.sqft} sqft</span>
+            <span class="text-border" data-ps="src/components/area/AreaListings.astro:cnpmyb">|</span>
+            <span data-ps="src/components/area/AreaListings.astro:cnpmya">{listing.type}</span>
+          </div>
+          <p class="text-muted-foreground text-[13px] leading-[20px] mt-3 line-clamp-3" data-ps="src/components/area/AreaListings.astro:3e6ob">
+            {listing.description}
+          </p>
+          <div class="mt-4 text-primary font-semibold text-[14px] flex items-center gap-1 group-hover:gap-2 transition-all" data-ps="src/components/area/AreaListings.astro:dg4yx9">
+            View Details <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+      </a>
+    ) : (
+      <div class="bg-white border border-border rounded-[8px] p-8 max-w-[820px]" data-ps="src/components/area/AreaListings.astro:dg4yx8">
+        <p class="text-muted-foreground text-[15px] mb-4" data-ps="src/components/area/AreaListings.astro:3e6oa">{emptyMessage}</p>
+        <a
+          href="/#contact"
+          class="inline-flex items-center gap-2 bg-primary text-white text-[14px] font-semibold px-6 py-3 rounded-[6px] hover:bg-primary-hover"
+         data-ps="src/components/area/AreaListings.astro:70jq0q">
+          <i class="ri-search-line"></i>
+          Explore Your Options
+        </a>
+      </div>
+    )}
+  </div>
+</section>

@@ -1,0 +1,42 @@
+---
+import { SEO, pageGraph, absoluteUrl, businessId } from '@/config/seo';
+import { FAQ_ITEMS } from '@/config/faqs';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import Stats from '@/components/home/Stats.astro';
+import About from '@/components/home/About.astro';
+import Testimonials from '@/components/home/Testimonials.astro';
+import Listings from '@/components/home/Listings.astro';
+import Agents from '@/components/home/Agents.astro';
+import BoutiqueApproach from '@/components/home/BoutiqueApproach.astro';
+import Areas from '@/components/home/Areas.astro';
+import FAQ from '@/components/home/FAQ.astro';
+import Contact from '@/components/home/Contact.astro';
+import CareersCTA from '@/components/home/CareersCTA.astro';
+
+const jsonLd = pageGraph('/', SEO.home, 'WebPage', [
+  { '@type': 'FAQPage', '@id': absoluteUrl('/#faq'), isPartOf: { '@id': absoluteUrl('/#webpage') },
+    mainEntity: FAQ_ITEMS.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) },
+  { '@type': 'ContactPage', '@id': absoluteUrl('/#contact'), url: absoluteUrl('/#contact'), name: 'Contact Kippy Ellis Group', description: 'Contact our team about buying or selling real estate in West Michigan.', isPartOf: { '@id': absoluteUrl('/#webpage') }, mainEntity: { '@id': businessId } },
+  ...['Buyer Representation', 'Seller Strategy', 'Lakeshore & Residential'].map((name, index) => ({ '@type': 'Service', '@id': absoluteUrl('/#service-' + index), name, serviceType: name, provider: { '@id': businessId }, areaServed: { '@type': 'Place', name: 'West Michigan' }, url: absoluteUrl('/#buying-selling') })),
+], { mainEntity: { '@id': businessId }, hasPart: [{ '@id': absoluteUrl('/#faq') }, { '@id': absoluteUrl('/#contact') }] });
+---
+
+<BaseLayout
+  title={SEO.home.title}
+  description={SEO.home.description}
+  type="website"
+  jsonLd={jsonLd}
+>
+  <Hero />
+  <Stats />
+  <About />
+  <Testimonials />
+  <Listings />
+  <Agents />
+  <BoutiqueApproach />
+  <Areas />
+  <FAQ />
+  <Contact />
+  <CareersCTA />
+</BaseLayout>

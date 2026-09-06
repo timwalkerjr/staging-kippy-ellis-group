@@ -1,0 +1,38 @@
+---
+export interface Props {
+  areaQuery: string;
+  areaName: string;
+}
+
+const { areaQuery, areaName } = Astro.props;
+---
+
+<section id="contact" class="bg-secondary" data-ps="src/components/area/AreaCTA.astro:7w8hje">
+  <div class="max-w-[1024px] mx-auto px-6 py-16 lg:py-20 text-center" data-ps="src/components/area/AreaCTA.astro:ra9o4z">
+    <div class="text-white/80 text-[12px] font-bold tracking-widest uppercase mb-2" data-ps="src/components/area/AreaCTA.astro:ra9o50">
+      Get in Touch
+    </div>
+    <h2 class="font-heading text-white text-[30px] lg:text-[36px] font-normal leading-[1.15] mb-4" data-ps="src/components/area/AreaCTA.astro:6l1w7t">
+      Thinking about buying or selling in {areaName}?
+    </h2>
+    <p class="text-white/85 text-[16px] max-w-[640px] mx-auto leading-[26px]" data-ps="src/components/area/AreaCTA.astro:smzfxu">
+      Our team knows this market inside and out. Let&rsquo;s talk about what you are looking for.
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-4 mt-6" data-ps="src/components/area/AreaCTA.astro:ra9o51">
+      <a
+        href="/#contact"
+        class="bg-white text-primary font-semibold text-[14px] px-6 py-3 rounded-[6px] inline-flex items-center gap-2 hover:bg-gray-100 shadow-sm"
+       data-ps="src/components/area/AreaCTA.astro:sv8nym">
+        <i class="ri-search-line"></i>
+        Explore Your Options
+      </a>
+      <a
+        href="tel:+16156561301"
+        class="bg-transparent border border-white/40 text-white font-semibold text-[14px] px-6 py-3 rounded-[6px] inline-flex items-center gap-2 hover:bg-white/10"
+       data-ps="src/components/area/AreaCTA.astro:sv8nyn">
+        <i class="ri-phone-line"></i>
+        Call (615) 656-1301
+      </a>
+    </div>
+  </div>
+</section>

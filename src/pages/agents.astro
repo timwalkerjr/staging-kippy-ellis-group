@@ -1,0 +1,26 @@
+---
+import { SEO, pageGraph, absoluteUrl, personSchema } from '@/config/seo';
+import { legacyAgents } from '@/config/agent-roster';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import AgentsHero from '@/components/agents/AgentsHero.astro';
+import AgentsStats from '@/components/agents/AgentsStats.astro';
+import AgentsList from '@/components/agents/AgentsList.astro';
+import AgentsCulture from '@/components/agents/AgentsCulture.astro';
+import AgentsCTA from '@/components/agents/AgentsCTA.astro';
+const people = legacyAgents.map((agent, index) => personSchema(agent, absoluteUrl('/agents/#agent-' + (index + 1)), absoluteUrl('/agents/#agent-' + (index + 1))));
+const list = { '@type': 'ItemList', '@id': absoluteUrl('/agents/#agent-list'), name: 'Brokerage agents', numberOfItems: people.length, itemListElement: people.map((person, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@id': person['@id'] } })) };
+const jsonLd = pageGraph('/agents/', SEO.agents, ['AboutPage', 'CollectionPage'], [...people, list], { mainEntity: { '@id': list['@id'] } });
+
+---
+
+<BaseLayout
+  title={SEO.agents.title}
+  description={SEO.agents.description}
+  jsonLd={jsonLd}
+>
+  <AgentsHero />
+  <AgentsStats />
+  <AgentsList />
+  <AgentsCulture />
+  <AgentsCTA />
+</BaseLayout>

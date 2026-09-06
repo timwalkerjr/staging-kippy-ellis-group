@@ -1,0 +1,37 @@
+---
+export interface Props {
+  areaName: string;
+  intro: string;
+  faqs: Array<{ question: string; answer: string }>;
+}
+
+const { areaName, intro, faqs } = Astro.props;
+---
+
+<section id="faq" class="bg-white">
+  <div class="max-w-[860px] mx-auto px-6 py-20 lg:py-24">
+    <div class="text-center mb-10">
+      <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-2">FAQ</div>
+      <h2 class="font-heading text-foreground text-[28px] lg:text-[36px] font-normal leading-[1.15] mb-4">
+        Frequently Asked Questions About {areaName}
+      </h2>
+      <p class="text-muted-foreground text-[15px] max-w-[680px] mx-auto">
+        {intro}
+      </p>
+    </div>
+
+    <div class="space-y-3">
+      {faqs.map((faq, i) => (
+        <details class="group bg-surface border border-border rounded-[8px] overflow-hidden" open={i === 0}>
+          <summary class="cursor-pointer list-none flex items-center justify-between gap-4 px-5 py-4 text-foreground font-semibold text-[15px] lg:text-[16px]">
+            <span>{faq.question}</span>
+            <i class="ri-arrow-down-s-line text-muted-foreground text-xl group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <div class="px-5 pb-5 text-muted-foreground text-[14px] leading-[24px]">
+            {faq.answer}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

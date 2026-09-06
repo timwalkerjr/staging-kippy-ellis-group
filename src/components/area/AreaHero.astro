@@ -1,0 +1,61 @@
+---
+export interface Props {
+  image: string;
+  areaName: string;
+  subtitle: string;
+  tagline: string;
+  stats: Array<{ value: string; label: string }>;
+}
+
+const { image, areaName, subtitle, tagline, stats } = Astro.props;
+---
+
+<section class="relative overflow-hidden bg-black min-h-[420px] flex items-end" data-ps="src/components/area/AreaHero.astro:huvxvz">
+  <img
+    src={image}
+    alt={areaName}
+    class="absolute inset-0 w-full h-full object-cover"
+    loading="eager"
+    fetchpriority="high" data-ps="src/components/area/AreaHero.astro:18rmh6" />
+  <div
+    class="absolute inset-0"
+    style="background: linear-gradient(to right, oklch(0.08 0 0 / 0.8), oklch(0.08 0 0 / 0.55) 60%, oklch(0.08 0 0 / 0.3));"
+   data-ps="src/components/area/AreaHero.astro:pbpuld">
+  </div>
+  <div class="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-8 py-16 lg:py-20 w-full" data-ps="src/components/area/AreaHero.astro:pbpule">
+    <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-3" data-ps="src/components/area/AreaHero.astro:pbpulf">
+      Areas We Serve
+    </div>
+    <h1 class="font-heading text-white text-[36px] lg:text-[52px] font-normal leading-[1.1] mb-3 max-w-[820px]" data-ps="src/components/area/AreaHero.astro:3cy0rh">
+      {areaName}
+    </h1>
+    <p class="text-white/85 text-[15px] lg:text-[17px] max-w-[720px] leading-[26px]" data-ps="src/components/area/AreaHero.astro:1gpa8v">
+      {subtitle}
+    </p>
+  </div>
+</section>
+
+<section class="bg-white border-b border-border" data-ps="src/components/area/AreaHero.astro:huvxw0">
+  <div class="max-w-[1440px] mx-auto px-6 py-10 lg:py-14" data-ps="src/components/area/AreaHero.astro:pbpulg">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6" data-ps="src/components/area/AreaHero.astro:pbpulh">
+      {stats.map((stat, i) => (
+        <div class={`flex flex-col items-center text-center ${i > 0 ? 'md:border-l md:border-border' : ''}`} data-ps={`src/components/area/AreaHero.astro:pbpuli-${i}`}>
+          <div class="text-[26px] lg:text-[32px] font-heading text-primary font-normal leading-tight" data-ps={`src/components/area/AreaHero.astro:pbpulj-${i}`}>
+            {stat.value}
+          </div>
+          <div class="text-[12px] lg:text-[13px] text-muted-foreground mt-2" data-ps={`src/components/area/AreaHero.astro:pbpulk-${i}`}>
+            {stat.label}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="bg-white" data-ps="src/components/area/AreaHero.astro:2v84mw">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-10 lg:py-12 text-center" data-ps="src/components/area/AreaHero.astro:pbpull">
+    <p class="text-[14px] text-muted-foreground italic max-w-[820px] mx-auto" data-ps="src/components/area/AreaHero.astro:1gpa8u">
+      {tagline}
+    </p>
+  </div>
+</section>

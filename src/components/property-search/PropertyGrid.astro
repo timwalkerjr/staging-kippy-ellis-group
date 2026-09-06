@@ -1,0 +1,199 @@
+---
+const properties = [
+  {
+    id: 101,
+    image: "https://pagesmith-cdn.com/ab210347/images/92e38d43ff14ff7d574eefd4b7c66acf-320.webp",
+    price: "$1.29M",
+    title: "4825 Lakeshore Dr",
+    location: "Holland, MI",
+    beds: 5, baths: 4, sqft: "4,100",
+    type: "Single Family",
+    featured: true,
+    pending: false,
+    description: "Stunning colonial home minutes from Lake Michigan beaches with a private backyard oasis, chef's kitchen, and main-floor primary suite."
+  },
+  {
+    id: 102,
+    image: "https://pagesmith-cdn.com/ab210347/images/e14dd64ef705299de6274887fa37e442-320.webp",
+    price: "$675k",
+    title: "3120 Cascade Ridge Dr",
+    location: "Grand Rapids, MI",
+    beds: 4, baths: 3, sqft: "2,800",
+    type: "Single Family",
+    featured: false,
+    pending: false,
+    description: "Newer construction farmhouse with open-concept living, upgraded finishes, Forest Hills schools, and a 3-car garage."
+  },
+  {
+    id: 103,
+    image: "https://pagesmith-cdn.com/ab210347/images/846b37a99e8156e41eaa6b5f2068680f-320.webp",
+    price: "$895k",
+    title: "Parcel 14, Dune Meadow Rd",
+    location: "Saugatuck, MI",
+    beds: null, baths: null, sqft: null,
+    type: "Land",
+    featured: true,
+    pending: false,
+    description: "15 acres of prime West Michigan wooded land ready for your dream lakeshore home or retreat. Gently rolling dunes and mature hardwood trees."
+  },
+  {
+    id: 104,
+    image: "https://pagesmith-cdn.com/ab210347/images/f342458eba1915760df3832561b65a7e-320.webp",
+    price: "$2.10M",
+    title: "1509 Harbor Point Way",
+    location: "Grand Haven, MI",
+    beds: 6, baths: 5, sqft: "6,200",
+    type: "Luxury",
+    featured: true,
+    pending: false,
+    description: "Exceptional luxury estate featuring Lake Michigan sunset views, custom wine room, home theater, and private guest quarters."
+  },
+  {
+    id: 105,
+    image: "https://pagesmith-cdn.com/ab210347/images/3007b8c481bf58aa1457bffce292f615-320.webp",
+    price: "$1.15M",
+    title: "800 Thornapple River Dr",
+    location: "Ada, MI",
+    beds: 4, baths: 3, sqft: "3,500",
+    type: "Single Family",
+    featured: false,
+    pending: false,
+    description: "Architectural gem along the river in Ada with designer finishes, custom woodwork, and peaceful waterfront views."
+  },
+  {
+    id: 106,
+    image: "https://pagesmith-cdn.com/ab210347/images/e5e0215259cfcc94bcb0e1bf4b1d984b-320.webp",
+    price: "$545k",
+    title: "4200 Spring Lake Woods",
+    location: "Spring Lake, MI",
+    beds: 3, baths: 2, sqft: "2,100",
+    type: "Single Family",
+    featured: false,
+    pending: true,
+    description: "Well-maintained ranch on a large wooded lot with a renovated kitchen and spacious screened four-season porch."
+  },
+  {
+    id: 107,
+    image: "https://pagesmith-cdn.com/ab210347/images/b9691cda38ec7323019e352f07e030cf-320.webp",
+    price: "$1.48M",
+    title: "2108 Rogue River Trail",
+    location: "Rockford, MI",
+    beds: 5, baths: 4, sqft: "4,500",
+    type: "Luxury",
+    featured: false,
+    pending: false,
+    description: "Custom craftsman masterpiece with soaring timber ceilings, a gourmet kitchen, and breathtaking wooded acreage."
+  },
+  {
+    id: 108,
+    image: "https://pagesmith-cdn.com/ab210347/images/5df3f0c299cda27f8ec1942ec5329f41-320.webp",
+    price: "$375k",
+    title: "1850 8th St",
+    location: "Holland, MI",
+    beds: 2, baths: 2, sqft: "1,400",
+    type: "Condominium",
+    featured: false,
+    pending: false,
+    description: "Walkable downtown Holland condo with modern finishes, private balcony, heated garage parking, and low maintenance."
+  },
+  {
+    id: 109,
+    image: "https://pagesmith-cdn.com/ab210347/images/1223a90d5e335f659f714dfc4eef10b2-320.webp",
+    price: "$1.85M",
+    title: "1280 Butternut Dr",
+    location: "Holland, MI",
+    beds: 5, baths: 5, sqft: "5,400",
+    type: "Luxury",
+    featured: false,
+    pending: false,
+    description: "Custom estate near Lake Macatawa with private pool, home gym, and expansive landscaped grounds."
+  },
+  {
+    id: 110,
+    image: "https://pagesmith-cdn.com/ab210347/images/b5e7f635416f16c7d02fc5ed242c9995-320.webp",
+    price: "$3.25M",
+    title: "75 Acres, Lakeshore Corridor",
+    location: "Grand Haven, MI",
+    beds: null, baths: null, sqft: null,
+    type: "Land",
+    featured: false,
+    pending: false,
+    description: "75-acre pristine West Michigan parcel with rolling terrain, mature pines, and development or private estate potential."
+  },
+  {
+    id: 111,
+    image: "https://pagesmith-cdn.com/ab210347/images/bb150b7bedf26471373c84788c40169d-320.webp",
+    price: "$825k",
+    title: "905 Timberline Dr",
+    location: "Grand Rapids, MI",
+    beds: 4, baths: 3, sqft: "3,200",
+    type: "Single Family",
+    featured: false,
+    pending: true,
+    description: "Spacious craftsman in a desirable East Grand Rapids neighborhood with a finished daylight basement and private backyard."
+  },
+  {
+    id: 112,
+    image: "https://pagesmith-cdn.com/ab210347/images/6dc83d82eb4e17b2386a2fe8d3d2929f-320.webp",
+    price: "$450k",
+    title: "4017 Beachway Rd",
+    location: "Muskegon, MI",
+    beds: 3, baths: 2, sqft: "1,750",
+    type: "Single Family",
+    featured: false,
+    pending: false,
+    description: "Charming lakeshore cottage close to Lake Michigan beaches with updated mechanics and a spacious fenced yard."
+  },
+];
+---
+
+<section id="property-grid" class="bg-white" data-ps="src/components/property-search/PropertyGrid.astro:l99jet">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-12 lg:py-16" data-ps="src/components/property-search/PropertyGrid.astro:psdyqs">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-ps="src/components/property-search/PropertyGrid.astro:psdyqt">
+      {properties.map((prop, __psIdx) => (
+        <article class="bg-white border border-border rounded-[8px] overflow-hidden hover-lift flex flex-col" data-ps={`src/components/property-search/PropertyGrid.astro:hna7zl-${__psIdx}`}>
+          <a href={`/property/${prop.id}`} class="relative block aspect-[4/3] overflow-hidden" data-ps={`src/components/property-search/PropertyGrid.astro:u9eg78-${__psIdx}`}>
+            <img
+              src={prop.image}
+              alt={prop.title}
+              class="w-full h-full object-cover hover-scale"
+              loading="lazy" data-ps={`src/components/property-search/PropertyGrid.astro:flj754-${__psIdx}`} />
+            <div class="absolute top-3 left-3 flex gap-2" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqu-${__psIdx}`}>
+              {prop.featured && (
+                <span class="inline-block bg-primary text-white text-[11px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wide" data-ps={`src/components/property-search/PropertyGrid.astro:78amxh-${__psIdx}`}>Featured</span>
+              )}
+              {prop.pending && (
+                <span class="inline-block bg-amber-600 text-white text-[11px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wide" data-ps={`src/components/property-search/PropertyGrid.astro:78amxi-${__psIdx}`}>Pending</span>
+              )}
+            </div>
+            <div class="absolute top-3 right-3" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqv-${__psIdx}`}>
+              <span class="inline-block bg-white text-foreground text-[16px] font-heading font-semibold px-3 py-1.5 rounded-[6px] shadow-sm" data-ps={`src/components/property-search/PropertyGrid.astro:78amxj-${__psIdx}`}>{prop.price}</span>
+            </div>
+          </a>
+          <div class="p-5 flex flex-col flex-1" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqw-${__psIdx}`}>
+            <a href={`/property/${prop.id}`} class="text-[20px] font-heading font-normal text-foreground hover:text-primary transition leading-tight" data-ps={`src/components/property-search/PropertyGrid.astro:u9eg79-${__psIdx}`}>{prop.title}</a>
+            <div class="flex items-center gap-1.5 text-[13px] text-muted-foreground mt-1" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqx-${__psIdx}`}>
+              <i class="ri-map-pin-line text-primary text-[14px]"></i>
+              {prop.location}
+            </div>
+            {prop.beds !== null && (
+              <div class="flex items-center gap-3 text-[13px] text-muted-foreground mt-3 pt-3 border-t border-border" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqy-${__psIdx}`}>
+                <span class="flex items-center gap-1" data-ps={`src/components/property-search/PropertyGrid.astro:78amxk-${__psIdx}`}><i class="ri-hotel-bed-line"></i> {prop.beds} bd</span>
+                <span class="flex items-center gap-1" data-ps={`src/components/property-search/PropertyGrid.astro:78amxl-${__psIdx}`}><i class="ri-drop-line"></i> {prop.baths} ba</span>
+                <span class="flex items-center gap-1" data-ps={`src/components/property-search/PropertyGrid.astro:78amxm-${__psIdx}`}><i class="ri-ruler-line"></i> {prop.sqft} sqft</span>
+              </div>
+            )}
+            <div class="text-[12px] font-semibold text-primary uppercase tracking-wide mt-3" data-ps={`src/components/property-search/PropertyGrid.astro:psdyqz-${__psIdx}`}>{prop.type}</div>
+            <p class="text-[14px] text-muted-foreground mt-3 leading-[22px]" data-ps={`src/components/property-search/PropertyGrid.astro:n5gji9-${__psIdx}`}>{prop.description}</p>
+            <div class="mt-auto pt-5 flex flex-col gap-2" data-ps={`src/components/property-search/PropertyGrid.astro:psdyr0-${__psIdx}`}>
+              <a href={`/property/${prop.id}`} class="text-[13px] font-semibold text-foreground hover:text-primary text-center border-b border-border pb-2" data-ps={`src/components/property-search/PropertyGrid.astro:u9eg7a-${__psIdx}`}>View Details <i class="ri-arrow-right-line align-middle"></i></a>
+              <a href="/#contact" class="bg-primary text-white font-semibold text-[14px] py-2.5 rounded-[6px] text-center hover:bg-primary-hover transition flex items-center justify-center gap-2" data-ps={`src/components/property-search/PropertyGrid.astro:u9eg7w-${__psIdx}`}>
+                <i class="ri-calendar-check-line"></i> Schedule a Showing
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

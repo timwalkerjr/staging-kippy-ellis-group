@@ -1,0 +1,45 @@
+---
+// Agents Detail Cards
+import { legacyAgents as agents } from '@/config/agent-roster';
+---
+
+<section class="bg-surface py-20 lg:py-24 border-t border-border" data-ps="src/components/agents/AgentsList.astro:agents-list">
+  <div class="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12" data-ps="src/components/agents/AgentsList.astro:vs7wvw">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8" data-ps="src/components/agents/AgentsList.astro:vs7wvx">
+      {agents.map((agent, __psIdx) => (
+        <div id={`agent-${__psIdx + 1}`} class="bg-white border border-border rounded-[8px] overflow-hidden flex flex-col sm:flex-row shadow-xs hover:shadow-md transition-shadow" data-ps="src/components/agents/AgentsList.astro:agent-card">
+          <div class="relative w-full sm:w-[200px] flex-shrink-0 aspect-square overflow-hidden bg-gray-100" data-ps="src/components/agents/AgentsList.astro:agent-img">
+            <img
+              src={agent.photo}
+              alt={agent.name}
+              class="w-full h-full object-cover object-top"
+              loading="lazy" data-ps={`src/components/agents/AgentsList.astro:rwrcu9-${__psIdx}`} />
+          </div>
+          <div class="p-6 flex flex-col flex-1" data-ps="src/components/agents/AgentsList.astro:agent-body">
+            <h3 class="font-heading text-[22px] font-normal text-foreground mb-1" data-ps="src/components/agents/AgentsList.astro:agent-name">{agent.name}</h3>
+            <p class="text-[14px] text-muted-foreground font-medium mb-2" data-ps="src/components/agents/AgentsList.astro:agent-role">{agent.role}</p>
+            <p class="text-[12px] font-semibold text-primary tracking-wider uppercase mb-4" data-ps="src/components/agents/AgentsList.astro:agent-exp">{agent.experience}</p>
+            <p class="text-[14px] text-muted-foreground leading-[22px] mb-4" data-ps="src/components/agents/AgentsList.astro:agent-bio">{agent.bio}</p>
+            <div class="flex flex-wrap gap-2 mb-4" data-ps="src/components/agents/AgentsList.astro:agent-tags">
+              {agent.specialties.map((tag) => (
+                <span class="text-[11px] font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-[4px]" data-ps="src/components/agents/AgentsList.astro:tag">
+                  {tag}
+                </span>
+              ))}
+            </div>
+            <div class="mt-auto pt-4 border-t border-border space-y-2" data-ps="src/components/agents/AgentsList.astro:agent-contact">
+              <a href={`tel:${agent.phone.replace(/[^0-9+]/g, '')}`} class="flex items-center gap-2 text-[13px] text-foreground hover:text-primary no-underline" data-ps="src/components/agents/AgentsList.astro:agent-phone">
+                <i class="ri-phone-line text-primary" aria-hidden="true"></i>
+                <span data-ps={`src/components/agents/AgentsList.astro:qz4dvv-${__psIdx}`}>{agent.phone}</span>
+              </a>
+              <a href={`mailto:${agent.email}`} class="flex items-center gap-2 text-[13px] text-primary hover:text-primary-hover no-underline" data-ps="src/components/agents/AgentsList.astro:agent-email">
+                <i class="ri-mail-line text-primary" aria-hidden="true"></i>
+                <span class="underline decoration-primary/30" data-ps={`src/components/agents/AgentsList.astro:qz4dvw-${__psIdx}`}>{agent.email}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+---
+export interface Props {
+  neighborhoods: string[];
+  attractions: string[];
+  mapEmbed?: string;
+  mapType?: 'embed' | 'static';
+  staticMapUrl?: string;
+}
+
+const { neighborhoods, attractions, mapEmbed, mapType = 'embed', staticMapUrl } = Astro.props;
+---
+
+<section id="neighborhoods" class="bg-white" data-ps="src/components/area/AreaNeighborhoods.astro:sdxizz">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-16 lg:py-20" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o8">
+    <div class="text-center mb-10" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o7">
+      <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-2" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o6">Local Guide</div>
+      <h2 class="font-heading text-foreground text-[28px] lg:text-[36px] font-normal leading-[1.15] mb-3" data-ps="src/components/area/AreaNeighborhoods.astro:mefhg8">
+        Popular Neighborhoods &amp; Attractions
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o5">
+      <div data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o4">
+        <h3 class="text-foreground text-[18px] font-semibold mb-4" data-ps="src/components/area/AreaNeighborhoods.astro:xy9nba">Popular Neighborhoods</h3>
+        <div class="flex flex-wrap gap-2.5" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o3">
+          {neighborhoods.map((n, __psIdx) => (
+            <span class="inline-flex items-center bg-surface border border-border text-foreground text-[13px] font-medium px-4 py-2 rounded-full" data-ps={`src/components/area/AreaNeighborhoods.astro:c0vktg-${__psIdx}`}>
+              {n}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o2">
+        <h3 class="text-foreground text-[18px] font-semibold mb-4" data-ps="src/components/area/AreaNeighborhoods.astro:xy9nbb">Local Attractions</h3>
+        <ul class="space-y-3">
+          {attractions.map((a, __psIdx) => (
+            <li class="flex items-start gap-3 text-muted-foreground text-[15px] leading-[24px]" data-ps={`src/components/area/AreaNeighborhoods.astro:lngkxp-${__psIdx}`}>
+              <i class="ri-map-pin-line text-primary text-lg shrink-0 mt-0.5"></i>
+              <span data-ps={`src/components/area/AreaNeighborhoods.astro:c0vkth-${__psIdx}`}>{a}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 rounded-[12px] overflow-hidden border border-border bg-surface" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o1">
+      {mapType === 'embed' && mapEmbed ? (
+        <iframe
+          src={mapEmbed}
+          width="100%"
+          height="380"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title={`Map of the area`}
+        ></iframe>
+      ) : staticMapUrl ? (
+        <img src={staticMapUrl} alt="Map" class="w-full h-[380px] object-cover" loading="lazy" data-ps="src/components/area/AreaNeighborhoods.astro:5uh4l1" />
+      ) : (
+        <div class="aspect-[16/6] flex items-center justify-center bg-sky-50/60 text-muted-foreground text-sm" data-ps="src/components/area/AreaNeighborhoods.astro:y3m0o0">
+          Map view
+        </div>
+      )}
+    </div>
+  </div>
+</section>

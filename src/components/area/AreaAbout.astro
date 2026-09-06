@@ -1,0 +1,46 @@
+---
+export interface Props {
+  title: string;
+  intro: string;
+  paragraphs: string[];
+  features: Array<{ icon: string; title: string; body: string }>;
+}
+
+const { title, intro, paragraphs, features } = Astro.props;
+---
+
+<section id="about" class="bg-surface" data-ps="src/components/area/AreaAbout.astro:krcs1j">
+  <div class="max-w-[1440px] mx-auto px-6 lg:px-8 py-20 lg:py-24" data-ps="src/components/area/AreaAbout.astro:su8vgu">
+    <div class="text-center max-w-[820px] mx-auto mb-12" data-ps="src/components/area/AreaAbout.astro:su8vgt">
+      <div class="text-[12px] font-bold text-primary tracking-widest uppercase mb-2" data-ps="src/components/area/AreaAbout.astro:su8vgs">About</div>
+      <h2 class="font-heading text-foreground text-[30px] lg:text-[36px] font-normal leading-[1.15] mb-4" data-ps="src/components/area/AreaAbout.astro:bmjujc">
+        {title}
+      </h2>
+      <p class="text-muted-foreground text-[16px] lg:text-[18px] leading-[28px]" data-ps="src/components/area/AreaAbout.astro:5sootx">
+        {intro}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[920px] mx-auto mb-12" data-ps="src/components/area/AreaAbout.astro:su8vgr">
+      {paragraphs.map((p, __psIdx) => (
+        <p class="text-muted-foreground text-[15px] leading-[26px]" data-ps={`src/components/area/AreaAbout.astro:5sooty-${__psIdx}`}>{p}</p>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5" data-ps="src/components/area/AreaAbout.astro:su8vgq">
+      {features.map((f, __psIdx) => (
+        <div class="bg-white border border-border p-6 rounded-[8px] flex flex-col items-start gap-3" data-ps={`src/components/area/AreaAbout.astro:su8vgp-${__psIdx}`}>
+          <div class="w-10 h-10 bg-primary/10 text-primary rounded-[6px] flex items-center justify-center" data-ps={`src/components/area/AreaAbout.astro:su8vgo-${__psIdx}`}>
+            <i class={`${f.icon} text-xl`}></i>
+          </div>
+          <h4 class="font-heading text-foreground text-[17px] font-normal leading-tight" data-ps={`src/components/area/AreaAbout.astro:aogk9j-${__psIdx}`}>
+            {f.title}
+          </h4>
+          <p class="text-muted-foreground text-[14px] leading-[22px]" data-ps={`src/components/area/AreaAbout.astro:5sootz-${__psIdx}`}>
+            {f.body}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
